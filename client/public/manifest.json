@@ -1,0 +1,87 @@
+{
+  "name": "Renovision Design & Build",
+  "short_name": "Renovision",
+  "description": "Design-build contractor specializing in luxury home renovations in Seattle and the Eastside",
+  "start_url": "/",
+  "scope": "/",
+  "display": "standalone",
+  "orientation": "portrait-primary",
+  "background_color": "#ffffff",
+  "theme_color": "#1E3A2E",
+  "icons": [
+    {
+      "src": "/manus-storage/renovision-logo_63d2bd18.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "/manus-storage/renovision-logo_63d2bd18.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "/manus-storage/renovision-logo_63d2bd18.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ],
+  "categories": ["business", "lifestyle"],
+  "screenshots": [
+    {
+      "src": "/manus-storage/renovision-logo_63d2bd18.png",
+      "sizes": "540x720",
+      "type": "image/png",
+      "form_factor": "narrow"
+    },
+    {
+      "src": "/manus-storage/renovision-logo_63d2bd18.png",
+      "sizes": "1280x720",
+      "type": "image/png",
+      "form_factor": "wide"
+    }
+  ],
+  "shortcuts": [
+    {
+      "name": "Request Consultation",
+      "short_name": "Consultation",
+      "description": "Schedule a free consultation",
+      "url": "/contact",
+      "icons": [
+        {
+          "src": "/manus-storage/renovision-logo_63d2bd18.png",
+          "sizes": "192x192",
+          "type": "image/png"
+        }
+      ]
+    },
+    {
+      "name": "View Services",
+      "short_name": "Services",
+      "description": "Browse our renovation services",
+      "url": "/services",
+      "icons": [
+        {
+          "src": "/manus-storage/renovision-logo_63d2bd18.png",
+          "sizes": "192x192",
+          "type": "image/png"
+        }
+      ]
+    },
+    {
+      "name": "Project Gallery",
+      "short_name": "Gallery",
+      "description": "View completed projects",
+      "url": "/project-gallery",
+      "icons": [
+        {
+          "src": "/manus-storage/renovision-logo_63d2bd18.png",
+          "sizes": "192x192",
+          "type": "image/png"
+        }
+      ]
+    }
+  ]
+}

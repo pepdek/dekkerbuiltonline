@@ -4,6 +4,10 @@ import NotFound from "@/pages/NotFound";
 import { Route, Switch } from "wouter";
 import ErrorBoundary from "./components/ErrorBoundary";
 import { ThemeProvider } from "./contexts/ThemeContext";
+import { useScrollToTop } from "./hooks/useScrollToTop";
+import SkipToContent from "./components/SkipToContent";
+import { useEffect } from "react";
+import { initializePerformanceOptimizations } from "./lib/performance";
 import Home from "./pages/Home";
 import KitchenRemodel from "./pages/KitchenRemodel";
 import BathroomRemodel from "./pages/BathroomRemodel";
@@ -22,6 +26,9 @@ import GeneralContractorBellevue from "./pages/GeneralContractorBellevue";
 import ProjectDetail from "./pages/ProjectDetail";
 
 function Router() {
+  // Scroll to top on route change
+  useScrollToTop();
+
   // make sure to consider if you need authentication for certain routes
   return (
     <Switch>
@@ -56,8 +63,14 @@ function Router() {
 // - If you want to make theme switchable, pass `switchable` ThemeProvider and use `useTheme` hook
 
 function App() {
+  useEffect(() => {
+    // Initialize performance optimizations on mount
+    initializePerformanceOptimizations();
+  }, []);
+
   return (
     <ErrorBoundary>
+      <SkipToContent />
       <ThemeProvider
         defaultTheme="light"
         // switchable

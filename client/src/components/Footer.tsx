@@ -77,6 +77,27 @@ export default function Footer() {
                   </span>
                 </Link>
               </li>
+              <li>
+                <Link href="/basement-remodeling">
+                  <span className="text-gray-300 hover:text-[#b68a3c] transition-colors cursor-pointer">
+                    Basement Remodels
+                  </span>
+                </Link>
+              </li>
+              <li>
+                <Link href="/deck-patio">
+                  <span className="text-gray-300 hover:text-[#b68a3c] transition-colors cursor-pointer">
+                    Decks & Patios
+                  </span>
+                </Link>
+              </li>
+              <li>
+                <Link href="/new-construction">
+                  <span className="text-gray-300 hover:text-[#b68a3c] transition-colors cursor-pointer">
+                    New Construction
+                  </span>
+                </Link>
+              </li>
             </ul>
           </div>
 
