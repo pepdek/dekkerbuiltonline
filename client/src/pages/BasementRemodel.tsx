@@ -3,128 +3,136 @@ import ServicePageTemplate from '@/components/ServicePageTemplate';
 export default function BasementRemodel() {
   return (
     <ServicePageTemplate
-      title="Basement Remodeling"
-      subtitle="Turn unfinished square footage into living space."
-      description="Renovision Design & Build transforms basements into functional, comfortable living spaces. From moisture control and egress windows to electrical, plumbing, and finishes, we handle every detail to create a space you will actually use."
-      timeline="6–10 weeks"
-      investmentRange="$60k – $140k"
+      title="Basement Remodeling & Finishing in Bellevue & Pierce County"
+      subtitle="Convert unused basement space into functional living areas. Moisture control, egress windows, and premium finishes."
+      description="Renovision Design & Build specializes in basement remodeling and finishing throughout Bellevue, Tacoma, Gig Harbor, Lakewood, Puyallup, and the greater Puget Sound region. From moisture control and egress windows to flooring and lighting, we transform basements into valuable living space. In-house crews, transparent pricing, no subcontractors."
+      timeline="10–16 weeks"
+      investmentRange="$40k – $100k+"
       scope="Design + build"
       keyBenefits={[
         {
-          title: 'Moisture & egress expertise',
-          description: 'Proper waterproofing and egress windows prevent problems',
+          title: 'Professional Moisture Control & Waterproofing',
+          description: 'Prevent mold and water damage with expert waterproofing systems',
         },
         {
-          title: 'Code compliance',
-          description: 'We ensure all electrical, plumbing, and egress meet code',
+          title: 'Egress Windows & Safety Compliance',
+          description: 'Legal bedrooms with proper emergency egress and ventilation',
         },
         {
-          title: 'In-house crews',
-          description: 'All trades managed by Renovision',
+          title: 'Functional Layout Design',
+          description: 'Maximize usable space with expert design and finishing',
         },
       ]}
-      whyChooseTitle="Why Seattle Homeowners Choose Renovision for Basement Remodels"
-      whyChooseIntro="Basements are tricky. Moisture control, egress windows, electrical codes, and plumbing coordination require expertise. A poorly executed basement remodel leads to mold, code violations, and wasted money. Our design-build approach ensures your basement is built right."
+      whyChooseTitle="Why Homeowners Choose Renovision for Basement Remodeling"
+      whyChooseIntro="Basements are often overlooked potential. A properly finished basement adds significant value and living space. The key is moisture control, proper egress, and expert design. Our design-build approach ensures your basement is beautiful, functional, and protected from water damage."
       whyChooseFeatures={[
         {
-          title: 'Moisture Management',
-          description: 'Seattle basements face moisture challenges. We assess your foundation, install proper drainage and waterproofing, and ensure long-term dryness.',
+          title: 'Expert Moisture Control & Waterproofing',
+          description: 'Basements fail when moisture control is ignored. We use professional-grade waterproofing membranes, sump pump systems, and proper grading to prevent water intrusion and mold.',
         },
         {
-          title: 'Egress Windows & Safety',
-          description: 'Bedrooms require egress windows for emergency exit. We design and install compliant egress solutions that are both safe and attractive.',
+          title: 'Legal Egress Windows & Bedrooms',
+          description: 'If you want legal bedrooms, we install proper egress windows that meet building codes. Your basement is not just finished—it is compliant and safe.',
         },
         {
-          title: 'Electrical & Plumbing Coordination',
-          description: 'Basement electrical and plumbing require careful planning. Our in-house crews coordinate everything to code.',
+          title: 'Functional Layout & Lighting Design',
+          description: 'Basements lack natural light. We design strategic lighting, paint colors, and layouts to make your basement feel bright and welcoming.',
         },
         {
-          title: 'Functional Design',
-          description: 'We design basements for actual use—media rooms, home gyms, guest suites, or recreation spaces. Not wasted square footage.',
+          title: 'Fixed-Price Basement Finishing',
+          description: 'You know the cost upfront. No hidden charges for waterproofing or egress installation—all included in the proposal.',
         },
       ]}
       services={[
         {
-          title: 'Waterproofing & drainage',
-          description: 'Interior and exterior waterproofing, sump pump installation, drainage systems.',
+          title: 'Basement Waterproofing & Moisture Control',
+          description: 'Professional waterproofing membranes, sump pump systems, and drainage solutions.',
         },
         {
-          title: 'Egress windows',
-          description: 'Compliant egress windows for bedrooms and emergency exit.',
+          title: 'Egress Window Installation',
+          description: 'Legal bedrooms with proper emergency egress windows meeting building codes.',
         },
         {
-          title: 'Framing & drywall',
-          description: 'Proper framing with moisture-resistant materials.',
+          title: 'Basement Bedroom Finishing',
+          description: 'Drywall, flooring, lighting, and climate control for comfortable bedrooms.',
         },
         {
-          title: 'Electrical systems',
-          description: 'New circuits, outlets, lighting, and code-compliant installation.',
+          title: 'Recreation Room & Media Room Design',
+          description: 'Home theater, gaming areas, and entertainment spaces with proper acoustics.',
         },
         {
-          title: 'Plumbing',
-          description: 'Bathrooms, wet bars, and utility sinks.',
+          title: 'Basement Flooring Solutions',
+          description: 'Moisture-resistant options: luxury vinyl, tile, or engineered wood.',
         },
         {
-          title: 'Flooring',
-          description: 'Tile, LVP, or finished concrete.',
+          title: 'Lighting & HVAC Design',
+          description: 'Strategic lighting to brighten spaces, plus proper ventilation and temperature control.',
         },
         {
-          title: 'HVAC & ventilation',
-          description: 'Proper heating, cooling, and air quality.',
+          title: 'Basement Bar & Wet Bar Installation',
+          description: 'Custom bars with plumbing, cabinetry, and premium finishes.',
         },
         {
-          title: 'Finishing touches',
-          description: 'Paint, trim, doors, and fixtures.',
+          title: 'Storage & Organization Systems',
+          description: 'Built-in shelving, closets, and organization solutions.',
         },
       ]}
       whatIncluded={[
-        'Waterproofing & drainage assessment',
-        'Egress window installation',
-        'Framing & drywall',
-        'Electrical systems & lighting',
-        'Plumbing (if applicable)',
+        'Moisture assessment and waterproofing plan',
+        'Professional waterproofing membrane installation',
+        'Sump pump system (if needed)',
+        'Egress window installation (if bedrooms planned)',
+        'Drywall and framing',
+        'Electrical design and installation',
+        'Lighting design and installation',
+        'HVAC design and installation',
         'Flooring installation',
-        'HVAC & ventilation',
-        'Interior finishes & trim',
+        'Paint and finishes',
+        'Permits and inspections',
+        'Final walkthrough and documentation',
       ]}
       processSteps={[
         {
-          title: 'Basement Assessment',
-          description: 'We inspect your basement for moisture, drainage, and structural issues. We discuss your vision and assess feasibility.',
+          title: 'Moisture Assessment & Waterproofing Plan',
+          description: 'We assess your basement for moisture issues, foundation cracks, and drainage problems. We develop a comprehensive waterproofing plan before any finishing work begins.',
         },
         {
-          title: 'Design & Planning',
-          description: 'Our design team creates a plan addressing moisture, egress, electrical, and plumbing. We show you 3D renderings of the finished space.',
+          title: 'Design & Layout Planning',
+          description: 'We discuss your vision—bedrooms, recreation room, media room—and design a layout that maximizes usable space. We plan egress windows, lighting, and HVAC.',
         },
         {
-          title: 'Permits & Preparation',
-          description: 'We obtain all required permits. We prepare the space with waterproofing and drainage before framing begins.',
+          title: 'Waterproofing & Systems Installation',
+          description: 'We install professional waterproofing, sump pump systems, and proper drainage. We ensure your basement is protected before finishing.',
         },
         {
-          title: 'Build & Finishing',
-          description: 'Our crew frames, installs electrical and plumbing, finishes flooring and walls. Final walkthrough and warranty.',
+          title: 'Finishing & Final Inspection',
+          description: 'Our crews install drywall, flooring, lighting, and finishes. We conduct final inspections and ensure your basement is ready to use.',
         },
       ]}
       faqs={[
         {
-          question: 'How long does a basement remodel take?',
-          answer: 'Most basement remodels take 6–10 weeks. Larger projects or those requiring significant waterproofing may take longer. We provide a detailed timeline.',
+          question: 'How long does basement finishing take?',
+          answer: 'Basement remodels typically take 10–16 weeks from design approval to completion. The timeline depends on scope, waterproofing needs, and egress window installation.',
         },
         {
-          question: 'How much does basement waterproofing cost?',
-          answer: 'Waterproofing costs vary based on your basement\'s condition. We assess and provide a detailed estimate. Proper waterproofing is an investment that protects your entire project.',
+          question: 'What is the average cost of basement finishing?',
+          answer: 'Basement finishing typically costs $40,000 to $100,000+, depending on size, waterproofing needs, and finishes. We provide a fixed-price proposal upfront.',
         },
         {
-          question: 'Do I need an egress window?',
-          answer: 'If you plan to use the basement as a bedroom or sleeping area, yes. Building code requires egress windows for emergency exit. We design compliant solutions.',
+          question: 'How do you prevent water damage in basements?',
+          answer: 'Professional waterproofing membranes, sump pump systems, proper grading, and drainage are critical. We assess your basement and implement solutions to prevent water intrusion.',
         },
         {
-          question: 'Can I add a bathroom to my basement?',
-          answer: 'Yes. We handle all plumbing, including rough-in and finishing. We ensure proper drainage and code compliance.',
+          question: 'Can I create legal bedrooms in my basement?',
+          answer: 'Yes, if you install proper egress windows. We ensure all bedrooms meet building codes with emergency egress and proper ventilation.',
         },
         {
-          question: 'What is the ROI on a basement remodel?',
-          answer: 'A basement remodel typically returns 50–70% of its cost at resale. More importantly, you gain functional living space immediately.',
+          question: 'What flooring is best for basements?',
+          answer: 'Moisture-resistant options like luxury vinyl, tile, or engineered wood work best. We avoid standard hardwood in basements due to moisture risk.',
+        },
+        {
+          question: 'How do you brighten a dark basement?',
+          answer: 'Strategic lighting design, light paint colors, and egress windows all help. We create a bright, welcoming basement with proper lighting planning.',
         },
       ]}
     />

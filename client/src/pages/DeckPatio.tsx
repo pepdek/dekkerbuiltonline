@@ -3,128 +3,134 @@ import ServicePageTemplate from '@/components/ServicePageTemplate';
 export default function DeckPatio() {
   return (
     <ServicePageTemplate
-      title="Decks & Patio"
-      subtitle="Cedar decks, patios, and outdoor rooms for the NW."
-      description="Renovision Design & Build builds custom decks and patios that extend your living space and enhance your property. From pressure-treated and composite decks to stone patios and outdoor kitchens, we design and build outdoor spaces built to last in the Pacific Northwest climate."
-      timeline="3–6 weeks"
-      investmentRange="$25k – $90k"
+      title="Custom Deck & Patio Construction in Bellevue & Pierce County"
+      subtitle="Build your outdoor living space. Premium materials, expert design, and year-round durability."
+      description="Renovision Design & Build specializes in custom deck and patio construction throughout Bellevue, Tacoma, Gig Harbor, Lakewood, Puyallup, and the greater Puget Sound region. From composite decking and hardscaping to pergolas and outdoor kitchens, we create outdoor living spaces that extend your home. In-house crews, transparent pricing, no subcontractors."
+      timeline="8–14 weeks"
+      investmentRange="$30k – $80k+"
       scope="Design + build"
       keyBenefits={[
         {
-          title: 'Weather-resistant materials',
-          description: 'Built for Pacific Northwest rain and moisture',
+          title: 'Premium Outdoor Materials',
+          description: 'Composite decking, natural stone, pavers, and weather-resistant finishes',
         },
         {
-          title: 'Code-compliant construction',
-          description: 'Proper footings, railings, and structural integrity',
+          title: 'Expert Design & Layout',
+          description: 'Multi-level decks, integrated seating, and functional outdoor spaces',
         },
         {
-          title: 'In-house crews',
-          description: 'All construction managed by Renovision',
+          title: 'Year-Round Durability',
+          description: 'Built to withstand Pacific Northwest weather and seasonal changes',
         },
       ]}
-      whyChooseTitle="Why Seattle Homeowners Choose Renovision for Decks & Patios"
-      whyChooseIntro="A well-built deck or patio becomes an extension of your home. Poor construction leads to rot, settling, and safety issues. Our design-build approach ensures your outdoor space is built correctly and lasts for decades."
+      whyChooseTitle="Why Homeowners Choose Renovision for Deck & Patio Construction"
+      whyChooseIntro="Your outdoor space should be an extension of your home—beautiful, functional, and built to last. Our design-build approach creates custom decks and patios that maximize your property and provide year-round enjoyment."
       whyChooseFeatures={[
         {
-          title: 'Pacific Northwest Expertise',
-          description: 'We understand local weather, soil conditions, and moisture challenges. We build decks and patios that withstand rain, freeze-thaw cycles, and ground movement.',
+          title: 'Expert Outdoor Design & Layout',
+          description: 'We design decks and patios that flow with your home\'s architecture and landscape. Multi-level designs, integrated seating, and functional zones maximize usability.',
         },
         {
-          title: 'Proper Foundation & Footings',
-          description: 'Frost-protected footings prevent settling and heaving. We build to code and beyond, ensuring long-term stability.',
+          title: 'Premium Material Selection',
+          description: 'Composite decking, natural stone, pavers, and weather-resistant finishes. We source durable materials built for the Pacific Northwest climate.',
         },
         {
-          title: 'Material Selection',
-          description: 'We guide you through pressure-treated lumber, composite, cedar, and stone options. Each has pros and cons—we help you choose what fits your budget and maintenance preferences.',
+          title: 'Structural Expertise & Code Compliance',
+          description: 'Proper footings, framing, and drainage ensure your deck or patio lasts decades. We build to code and engineer for snow load and weather.',
         },
         {
-          title: 'Integrated Design',
-          description: 'We design decks and patios that complement your home\'s architecture and flow naturally from your interior spaces.',
+          title: 'Fixed-Price Outdoor Construction',
+          description: 'You know the cost upfront. No hidden charges for materials or labor—all included in the proposal.',
         },
       ]}
       services={[
         {
-          title: 'Pressure-treated decks',
-          description: 'Durable, affordable, and low-maintenance.',
+          title: 'Composite Deck Construction',
+          description: 'Low-maintenance composite decking in various colors and finishes.',
         },
         {
-          title: 'Composite decks',
-          description: 'Wood-plastic blend with minimal maintenance.',
+          title: 'Hardwood Deck Building',
+          description: 'Premium cedar, redwood, or pressure-treated lumber with custom finishes.',
         },
         {
-          title: 'Cedar decks',
-          description: 'Natural beauty with proper sealing and maintenance.',
+          title: 'Multi-Level Deck Design',
+          description: 'Tiered decks with integrated stairs, railings, and seating areas.',
         },
         {
-          title: 'Stone patios',
-          description: 'Pavers, flagstone, or natural stone.',
+          title: 'Patio & Hardscaping',
+          description: 'Natural stone, pavers, and permeable surfaces for drainage.',
         },
         {
-          title: 'Outdoor kitchens',
-          description: 'Grills, countertops, and built-in seating.',
+          title: 'Pergolas & Shade Structures',
+          description: 'Custom pergolas, arbors, and shade sails for outdoor comfort.',
         },
         {
-          title: 'Fire pits & fireplaces',
-          description: 'Outdoor gathering spaces.',
+          title: 'Outdoor Kitchen & Bar',
+          description: 'Built-in grills, countertops, and bar seating for entertaining.',
         },
         {
-          title: 'Pergolas & shade structures',
-          description: 'Architectural elements for sun control.',
+          title: 'Deck Lighting & Ambiance',
+          description: 'LED lighting, string lights, and landscape lighting design.',
         },
         {
-          title: 'Railings & stairs',
-          description: 'Code-compliant and attractive.',
+          title: 'Deck Repairs & Restoration',
+          description: 'Refinishing, staining, and repairs to existing decks.',
         },
       ]}
       whatIncluded={[
-        'Site assessment & grading',
-        'Frost-protected footings',
-        'Structural framing',
-        'Decking or patio surface',
-        'Railings & stairs',
-        'Proper drainage',
-        'Sealing & finishing',
-        'Permits & inspections',
+        'Outdoor space design and 3D renderings',
+        'Site preparation and grading',
+        'Foundation and structural engineering',
+        'Deck or patio construction',
+        'Railing and safety features',
+        'Stairs and transitions',
+        'Drainage and grading',
+        'Finishing and staining (if applicable)',
+        'Permits and inspections',
+        'Final walkthrough and documentation',
       ]}
       processSteps={[
         {
-          title: 'Site Assessment',
-          description: 'We evaluate your yard, soil conditions, drainage, and sun exposure. We discuss your vision and budget.',
+          title: 'Outdoor Space Assessment & Design',
+          description: 'We evaluate your yard—sunlight, views, drainage, and usage patterns. We design an outdoor space that complements your home and lifestyle.',
         },
         {
-          title: 'Design & Planning',
-          description: 'Our design team creates a plan showing layout, materials, and finishes. We show you renderings of the finished space.',
+          title: 'Material Selection & Planning',
+          description: 'You select decking materials, colors, and finishes. We plan structural details, drainage, and safety features.',
         },
         {
-          title: 'Permits & Preparation',
-          description: 'We obtain all required permits. We prepare the site with proper grading and drainage.',
+          title: 'Site Preparation & Construction',
+          description: 'We prepare the site, install foundations, and build your deck or patio. Our crews ensure proper drainage and structural integrity.',
         },
         {
-          title: 'Build & Finishing',
-          description: 'Our crew builds the structure, installs the surface, railings, and stairs. Final sealing and finishing.',
+          title: 'Finishing & Final Inspection',
+          description: 'We apply stain or sealant, install railings and lighting, and conduct final inspections. Your outdoor space is ready to enjoy.',
         },
       ]}
       faqs={[
         {
-          question: 'How long does a deck or patio take to build?',
-          answer: 'Most decks take 3–6 weeks. Patios may take 2–4 weeks. We provide a detailed timeline based on your project size.',
+          question: 'How long does deck or patio construction take?',
+          answer: 'Deck and patio projects typically take 8–14 weeks from design approval to completion. The timeline depends on size, complexity, and weather.',
         },
         {
-          question: 'What is the best material for a deck in the Pacific Northwest?',
-          answer: 'It depends on your budget and maintenance preferences. Pressure-treated lumber is affordable and durable. Composite requires less maintenance. Cedar is beautiful but needs regular sealing. We help you choose.',
+          question: 'What is the average cost of a deck or patio?',
+          answer: 'Deck and patio costs typically range from $30,000 to $80,000+, depending on size, materials, and features. We provide a fixed-price proposal upfront.',
         },
         {
-          question: 'Do I need a permit for a deck?',
-          answer: 'Yes, most decks require permits. We handle all permitting and inspections.',
+          question: 'Should I choose composite or hardwood decking?',
+          answer: 'Composite decking is low-maintenance and durable. Hardwood offers natural beauty but requires periodic staining. We discuss pros and cons based on your preferences.',
         },
         {
-          question: 'How often should I seal my deck?',
-          answer: 'Pressure-treated decks should be sealed every 2–3 years. Cedar should be sealed annually. Composite requires minimal maintenance. We advise on your specific material.',
+          question: 'Do you handle permits and inspections?',
+          answer: 'Yes. All permitting, inspections, and code compliance are included in our scope. We manage the entire process with local authorities.',
         },
         {
-          question: 'Can you build a patio on a slope?',
-          answer: 'Yes. We assess your slope and design a patio with proper drainage and retaining walls if needed.',
+          question: 'Can you add lighting to my deck or patio?',
+          answer: 'Yes. We design deck lighting, landscape lighting, and string lights to create ambiance and functionality for evening use.',
+        },
+        {
+          question: 'What is the ROI on a deck or patio?',
+          answer: 'A deck or patio typically returns 50–80% of its cost at resale. More importantly, you gain outdoor living space immediately.',
         },
       ]}
     />
