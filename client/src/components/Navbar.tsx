@@ -1,9 +1,20 @@
 import { useState } from 'react';
-import { Menu, X } from 'lucide-react';
+import { Menu, X, ChevronDown } from 'lucide-react';
 import { Link } from 'wouter';
 
 export default function Navbar() {
   const [isOpen, setIsOpen] = useState(false);
+  const [isServicesOpen, setIsServicesOpen] = useState(false);
+
+  const services = [
+    { label: 'Kitchen Remodeling', href: '/kitchen-remodel' },
+    { label: 'Bathroom Remodeling', href: '/bathroom-remodeling' },
+    { label: 'Whole Home Remodels', href: '/full-home-remodel' },
+    { label: 'ADU Construction', href: '/adu-construction' },
+    { label: 'Basement Remodeling', href: '/basement-remodeling' },
+    { label: 'Decks & Patios', href: '/deck-patio' },
+    { label: 'New Construction', href: '/new-construction' },
+  ];
 
   const toggleMenu = () => setIsOpen(!isOpen);
 
@@ -23,18 +34,32 @@ export default function Navbar() {
 
         {/* Desktop Navigation */}
         <div className="hidden md:flex items-center gap-8">
-          <Link href="/services">
-            <span className="text-[#333333] hover:text-[#1E3A2E] font-medium transition-colors cursor-pointer">
+          {/* Services Dropdown */}
+          <div className="relative group">
+            <button className="flex items-center gap-1 text-[#333333] hover:text-[#b68a3c] transition-colors font-medium">
               Services
-            </span>
-          </Link>
+              <ChevronDown className="w-4 h-4" />
+            </button>
+
+            {/* Desktop Dropdown Menu */}
+            <div className="absolute left-0 mt-0 w-56 bg-white border border-[#EEEEEE] rounded-lg shadow-lg opacity-0 invisible group-hover:opacity-100 group-hover:visible transition-all duration-200 py-2 z-50">
+              {services.map((service, index) => (
+                <Link key={index} href={service.href}>
+                  <span className="block px-4 py-2 text-[#333333] hover:bg-[#F6F8F3] hover:text-[#b68a3c] transition-colors cursor-pointer text-sm">
+                    {service.label}
+                  </span>
+                </Link>
+              ))}
+            </div>
+          </div>
+
           <Link href="/about-us">
-            <span className="text-[#333333] hover:text-[#1E3A2E] font-medium transition-colors cursor-pointer">
+            <span className="text-[#333333] hover:text-[#b68a3c] font-medium transition-colors cursor-pointer">
               About Us
             </span>
           </Link>
           <Link href="/contact">
-            <span className="text-[#333333] hover:text-[#1E3A2E] font-medium transition-colors cursor-pointer">
+            <span className="text-[#333333] hover:text-[#b68a3c] font-medium transition-colors cursor-pointer">
               Contact Us
             </span>
           </Link>
@@ -44,7 +69,7 @@ export default function Navbar() {
         <div className="hidden md:flex items-center gap-4">
           <a
             href="tel:+14252766501"
-            className="text-[#333333] hover:text-[#1E3A2E] font-medium transition-colors"
+            className="text-[#333333] hover:text-[#b68a3c] font-medium transition-colors"
           >
             (425) 276-6501
           </a>
@@ -75,18 +100,38 @@ export default function Navbar() {
       {isOpen && (
         <div className="md:hidden bg-[#F6F8F3] border-t border-[#EEEEEE]">
           <div className="container mx-auto px-4 py-4 flex flex-col gap-4">
-            <Link href="/services">
-              <span className="text-[#333333] hover:text-[#1E3A2E] font-medium transition-colors cursor-pointer block">
-                Services
-              </span>
-            </Link>
+            {/* Mobile Services Dropdown */}
+            <button
+              onClick={() => setIsServicesOpen(!isServicesOpen)}
+              className="w-full text-left text-[#333333] hover:text-[#b68a3c] font-medium transition-colors flex items-center justify-between"
+            >
+              Services
+              <ChevronDown
+                className={`w-4 h-4 transition-transform ${
+                  isServicesOpen ? 'rotate-180' : ''
+                }`}
+              />
+            </button>
+
+            {isServicesOpen && (
+              <div className="bg-white border border-[#EEEEEE] rounded-lg py-2">
+                {services.map((service, index) => (
+                  <Link key={index} href={service.href}>
+                    <span className="block px-4 py-2 text-[#333333] hover:bg-[#F6F8F3] hover:text-[#b68a3c] transition-colors cursor-pointer text-sm">
+                      {service.label}
+                    </span>
+                  </Link>
+                ))}
+              </div>
+            )}
+
             <Link href="/about-us">
-              <span className="text-[#333333] hover:text-[#1E3A2E] font-medium transition-colors cursor-pointer block">
+              <span className="text-[#333333] hover:text-[#b68a3c] font-medium transition-colors cursor-pointer block">
                 About Us
               </span>
             </Link>
             <Link href="/contact">
-              <span className="text-[#333333] hover:text-[#1E3A2E] font-medium transition-colors cursor-pointer block">
+              <span className="text-[#333333] hover:text-[#b68a3c] font-medium transition-colors cursor-pointer block">
                 Contact Us
               </span>
             </Link>
