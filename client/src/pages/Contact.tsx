@@ -1,6 +1,6 @@
 import Navbar from '@/components/Navbar';
 import Footer from '@/components/Footer';
-import ConsultationForm from '@/components/ConsultationForm';
+import ConsultationFormV2 from '@/components/ConsultationFormV2';
 
 export default function Contact() {
   return (
@@ -26,7 +26,7 @@ export default function Contact() {
           <div className="grid grid-cols-1 lg:grid-cols-3 gap-12">
             {/* Form */}
             <div className="lg:col-span-2">
-              <ConsultationForm />
+              <ConsultationFormV2 />
             </div>
 
             {/* Contact Info Sidebar */}

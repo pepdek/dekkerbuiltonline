@@ -6,7 +6,8 @@ import { createRoot } from "react-dom/client";
 import superjson from "superjson";
 import App from "./App";
 import { startLogin } from "./const";
-import "./index.css";
+import './index.css';
+import './styles/animations.css';
 
 const queryClient = new QueryClient();
 

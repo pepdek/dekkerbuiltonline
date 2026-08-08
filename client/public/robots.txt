@@ -1,0 +1,13 @@
+User-agent: *
+Allow: /
+Disallow: /admin
+Disallow: /private
+
+Sitemap: https://renovision-clone.manus.space/sitemap.xml
+
+# Allow search engines to crawl all pages
+User-agent: Googlebot
+Allow: /
+
+User-agent: Bingbot
+Allow: /

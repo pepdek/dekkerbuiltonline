@@ -1,0 +1,210 @@
+/* Smooth Scroll Behavior */
+html {
+  scroll-behavior: smooth;
+}
+
+/* Service Card Animations */
+.service-card {
+  transition: all 0.3s cubic-bezier(0.23, 1, 0.32, 1);
+  transform: translateY(0);
+}
+
+.service-card:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 20px 25px -5px rgba(30, 58, 46, 0.1);
+}
+
+/* Project Card Animations */
+.project-card {
+  transition: all 0.3s cubic-bezier(0.23, 1, 0.32, 1);
+  overflow: hidden;
+}
+
+.project-card:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 20px 25px -5px rgba(30, 58, 46, 0.15);
+}
+
+.project-card img {
+  transition: transform 0.4s cubic-bezier(0.23, 1, 0.32, 1);
+}
+
+.project-card:hover img {
+  transform: scale(1.08);
+}
+
+/* Button Hover Effects */
+.btn-primary,
+.btn-secondary,
+.btn-gold {
+  transition: all 0.2s cubic-bezier(0.23, 1, 0.32, 1);
+  transform: scale(1);
+}
+
+.btn-primary:hover,
+.btn-secondary:hover,
+.btn-gold:hover {
+  transform: scale(1.02);
+}
+
+.btn-primary:active,
+.btn-secondary:active,
+.btn-gold:active {
+  transform: scale(0.98);
+}
+
+/* Fade In Animation */
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.fade-in {
+  animation: fadeIn 0.6s cubic-bezier(0.23, 1, 0.32, 1) forwards;
+}
+
+/* Stagger Animation */
+.stagger-item {
+  opacity: 0;
+  animation: fadeIn 0.6s cubic-bezier(0.23, 1, 0.32, 1) forwards;
+}
+
+.stagger-item:nth-child(1) { animation-delay: 0.1s; }
+.stagger-item:nth-child(2) { animation-delay: 0.2s; }
+.stagger-item:nth-child(3) { animation-delay: 0.3s; }
+.stagger-item:nth-child(4) { animation-delay: 0.4s; }
+.stagger-item:nth-child(5) { animation-delay: 0.5s; }
+.stagger-item:nth-child(6) { animation-delay: 0.6s; }
+
+/* Scroll Reveal Animation */
+@keyframes slideInUp {
+  from {
+    opacity: 0;
+    transform: translateY(40px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.scroll-reveal {
+  animation: slideInUp 0.8s cubic-bezier(0.23, 1, 0.32, 1) forwards;
+}
+
+/* Link Hover Effects */
+a {
+  transition: color 0.2s ease;
+}
+
+a:hover {
+  color: #b68a3c;
+}
+
+/* Input Focus Effects */
+input:focus,
+textarea:focus,
+select:focus {
+  transition: all 0.2s ease;
+}
+
+/* Card Hover Effects */
+.card {
+  transition: all 0.3s cubic-bezier(0.23, 1, 0.32, 1);
+}
+
+.card:hover {
+  box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.1);
+}
+
+/* Smooth Page Transitions */
+@keyframes pageEnter {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+body {
+  animation: pageEnter 0.3s ease-out;
+}
+
+/* Navbar Hover Effects */
+nav a {
+  transition: all 0.2s ease;
+  position: relative;
+}
+
+nav a::after {
+  content: '';
+  position: absolute;
+  bottom: -2px;
+  left: 0;
+  width: 0;
+  height: 2px;
+  background-color: #b68a3c;
+  transition: width 0.3s cubic-bezier(0.23, 1, 0.32, 1);
+}
+
+nav a:hover::after {
+  width: 100%;
+}
+
+/* Icon Animations */
+.icon-hover {
+  transition: all 0.3s cubic-bezier(0.23, 1, 0.32, 1);
+}
+
+.icon-hover:hover {
+  transform: scale(1.1) rotate(5deg);
+}
+
+/* Text Gradient Animation */
+@keyframes shimmer {
+  0% {
+    background-position: -1000px 0;
+  }
+  100% {
+    background-position: 1000px 0;
+  }
+}
+
+.shimmer {
+  animation: shimmer 2s infinite;
+}
+
+/* Pulse Animation */
+@keyframes pulse {
+  0%, 100% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0.5;
+  }
+}
+
+.pulse {
+  animation: pulse 2s cubic-bezier(0.4, 0, 0.6, 1) infinite;
+}
+
+/* Bounce Animation */
+@keyframes bounce {
+  0%, 100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-10px);
+  }
+}
+
+.bounce {
+  animation: bounce 2s infinite;
+}

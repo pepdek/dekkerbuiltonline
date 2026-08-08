@@ -4,8 +4,10 @@ import { Button } from '@/components/ui/button';
 import { Card } from '@/components/ui/card';
 import Navbar from '@/components/Navbar';
 import Footer from '@/components/Footer';
-import ConsultationForm from '@/components/ConsultationForm';
+import ConsultationFormV2 from '@/components/ConsultationFormV2';
 import StatsCounter from '@/components/StatsCounter';
+import ReviewsSection from '@/components/ReviewsSection';
+import MapsSection from '@/components/MapsSection';
 
 export default function Home() {
   return (
@@ -72,7 +74,7 @@ export default function Home() {
               <p className="text-gray-600 mb-6">
                 Let's bring your vision to life.
               </p>
-              <ConsultationForm />
+              <ConsultationFormV2 />
             </div>
           </div>
         </div>
@@ -389,6 +391,12 @@ export default function Home() {
           </div>
         </div>
       </section>
+
+      {/* Reviews Section */}
+      <ReviewsSection />
+
+      {/* Maps Section */}
+      <MapsSection />
 
       <Footer />
     </div>
