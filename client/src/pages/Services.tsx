@@ -112,10 +112,10 @@ export default function Services() {
         <div className="container mx-auto px-4">
           <p className="text-[#b68a3c] font-bold text-sm tracking-wide mb-4">WHAT WE BUILD</p>
           <h1 className="text-4xl md:text-5xl font-bold text-[#1E3A2E] mb-6">
-            Nine services, one standard of craft.
+            Home Remodeling & Construction Services in Bellevue & Pierce County
           </h1>
           <p className="text-lg text-gray-600 max-w-3xl">
-            From a single custom kitchen to a full ground-up renovation, every project runs through the same in-house team and the same fixed-price process.
+            Renovision Design & Build offers comprehensive remodeling and construction services throughout the Puget Sound region. From custom kitchens and luxury bathrooms to whole-home renovations and new construction, every project is managed by our in-house team with transparent pricing and exceptional craftsmanship.
           </p>
         </div>
       </section>

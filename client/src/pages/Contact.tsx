@@ -12,10 +12,10 @@ export default function Contact() {
         <div className="container mx-auto px-4">
           <p className="text-[#b68a3c] font-bold text-sm tracking-wide mb-4">GET IN TOUCH</p>
           <h1 className="text-4xl md:text-5xl font-bold text-[#1E3A2E] mb-6">
-            Let's talk about your home.
+            Contact Renovision Design & Build - Schedule Your Free Consultation
           </h1>
           <p className="text-lg text-gray-600 max-w-2xl">
-            Tell us a little about your project and we'll be in touch within one business day to set up a free consultation.
+            Ready to start your renovation or construction project? Contact our team to schedule a free consultation. We'll discuss your vision, assess your project, and provide a transparent proposal with no hidden costs.
           </p>
         </div>
       </section>

@@ -14,7 +14,7 @@ export default function AboutUs() {
         <div className="container mx-auto px-4">
           <p className="text-[#b68a3c] font-bold text-sm tracking-wide mb-4">ABOUT US</p>
           <h1 className="text-4xl md:text-5xl font-bold text-[#1E3A2E] mb-6">
-            Design-build custom homes & high-end renovations across Seattle and the Eastside.
+            About Renovision Design & Build - Bellevue's Premier Design-Build Contractor
           </h1>
           <p className="text-lg text-gray-600 max-w-3xl">
             Affordable luxury, built to last. We combine thoughtful design, transparent communication, and meticulous execution to deliver exceptional spaces that elevate everyday living.
