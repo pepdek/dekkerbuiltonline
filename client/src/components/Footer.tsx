@@ -136,6 +136,48 @@ export default function Footer() {
             </ul>
           </div>
 
+          {/* Locations */}
+          <div>
+            <h4 className="text-lg font-bold mb-6 text-[#b68a3c]">LOCATIONS</h4>
+            <ul className="space-y-3">
+              <li>
+                <Link href="/general-contractor-bellevue">
+                  <span className="text-gray-300 hover:text-[#b68a3c] transition-colors cursor-pointer">
+                    Bellevue
+                  </span>
+                </Link>
+              </li>
+              <li>
+                <Link href="/general-contractor-tacoma">
+                  <span className="text-gray-300 hover:text-[#b68a3c] transition-colors cursor-pointer">
+                    Tacoma
+                  </span>
+                </Link>
+              </li>
+              <li>
+                <Link href="/general-contractor-gig-harbor">
+                  <span className="text-gray-300 hover:text-[#b68a3c] transition-colors cursor-pointer">
+                    Gig Harbor
+                  </span>
+                </Link>
+              </li>
+              <li>
+                <Link href="/general-contractor-lakewood">
+                  <span className="text-gray-300 hover:text-[#b68a3c] transition-colors cursor-pointer">
+                    Lakewood
+                  </span>
+                </Link>
+              </li>
+              <li>
+                <Link href="/general-contractor-puyallup">
+                  <span className="text-gray-300 hover:text-[#b68a3c] transition-colors cursor-pointer">
+                    Puyallup
+                  </span>
+                </Link>
+              </li>
+            </ul>
+          </div>
+
           {/* Contact */}
           <div>
             <h4 className="text-lg font-bold mb-6 text-[#b68a3c]">CONTACT</h4>

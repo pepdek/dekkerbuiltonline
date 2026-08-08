@@ -36,14 +36,14 @@ export default function MapsSection() {
                 Service Areas
               </h3>
               <div className="space-y-2 text-sm text-gray-700">
-                <p>• Bellevue</p>
-                <p>• Kirkland</p>
-                <p>• Redmond</p>
-                <p>• Mercer Island</p>
-                <p>• Seattle</p>
-                <p>• Sammamish</p>
-                <p>• Issaquah</p>
-                <p>• Snoqualmie</p>
+                <p>• Tacoma</p>
+                <p>• Gig Harbor</p>
+                <p>• Lakewood</p>
+                <p>• Puyallup</p>
+                <p>• Spanaway</p>
+                <p>• Sumner</p>
+                <p>• Bonney Lake</p>
+                <p>• Eatonville</p>
               </div>
               <p className="text-xs text-gray-600 mt-4">
                 Don't see your area? Contact us—we may be able to help.

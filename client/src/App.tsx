@@ -23,6 +23,10 @@ import ProjectGallery from "./pages/ProjectGallery";
 import PrivacyPolicy from "./pages/PrivacyPolicy";
 import TermsAndConditions from "./pages/TermsAndConditions";
 import GeneralContractorBellevue from "./pages/GeneralContractorBellevue";
+import GeneralContractorTacoma from "./pages/GeneralContractorTacoma";
+import GeneralContractorGigHarbor from "./pages/GeneralContractorGigHarbor";
+import GeneralContractorLakewood from "./pages/GeneralContractorLakewood";
+import GeneralContractorPuyallup from "./pages/GeneralContractorPuyallup";
 import ProjectDetail from "./pages/ProjectDetail";
 
 function Router() {
@@ -50,6 +54,10 @@ function Router() {
       <Route path={"/privacy-policy"} component={PrivacyPolicy} />
       <Route path={"/terms-and-conditions"} component={TermsAndConditions} />
       <Route path={"/general-contractor-bellevue"} component={GeneralContractorBellevue} />
+      <Route path={"/general-contractor-tacoma"} component={GeneralContractorTacoma} />
+      <Route path={"/general-contractor-gig-harbor"} component={GeneralContractorGigHarbor} />
+      <Route path={"/general-contractor-lakewood"} component={GeneralContractorLakewood} />
+      <Route path={"/general-contractor-puyallup"} component={GeneralContractorPuyallup} />
       <Route path={"/404"} component={NotFound} />
       {/* Final fallback route */}
       <Route component={NotFound} />
