@@ -5,12 +5,44 @@ import { Route, Switch } from "wouter";
 import ErrorBoundary from "./components/ErrorBoundary";
 import { ThemeProvider } from "./contexts/ThemeContext";
 import Home from "./pages/Home";
+import KitchenRemodel from "./pages/KitchenRemodel";
+import BathroomRemodel from "./pages/BathroomRemodel";
+import WholeHomeRemodel from "./pages/WholeHomeRemodel";
+import ADUConstruction from "./pages/ADUConstruction";
+import BasementRemodel from "./pages/BasementRemodel";
+import DeckPatio from "./pages/DeckPatio";
+import NewConstruction from "./pages/NewConstruction";
+import Services from "./pages/Services";
+import Contact from "./pages/Contact";
+import AboutUs from "./pages/AboutUs";
+import ProjectGallery from "./pages/ProjectGallery";
+import PrivacyPolicy from "./pages/PrivacyPolicy";
+import TermsAndConditions from "./pages/TermsAndConditions";
+import GeneralContractorBellevue from "./pages/GeneralContractorBellevue";
+import ProjectDetail from "./pages/ProjectDetail";
 
 function Router() {
   // make sure to consider if you need authentication for certain routes
   return (
     <Switch>
       <Route path={"/"} component={Home} />
+      <Route path={"/services"} component={Services} />
+      <Route path={"/kitchen-remodel"} component={KitchenRemodel} />
+      <Route path={"/bathroom-remodeling"} component={BathroomRemodel} />
+      <Route path={"/full-home-remodel"} component={WholeHomeRemodel} />
+      <Route path={"/adu-construction"} component={ADUConstruction} />
+      <Route path={"/basement-remodeling"} component={BasementRemodel} />
+      <Route path={"/deck-patio"} component={DeckPatio} />
+      <Route path={"/new-construction"} component={NewConstruction} />
+      <Route path={"/about-us"} component={AboutUs} />
+      <Route path={"/contact"} component={Contact} />
+      <Route path={"/project-gallery"} component={ProjectGallery} />
+      <Route path={"/project/:slug"} component={ProjectDetail} />
+      <Route path={"/blog"} component={Home} />
+      <Route path={"/blog/:slug"} component={Home} />
+      <Route path={"/privacy-policy"} component={PrivacyPolicy} />
+      <Route path={"/terms-and-conditions"} component={TermsAndConditions} />
+      <Route path={"/general-contractor-bellevue"} component={GeneralContractorBellevue} />
       <Route path={"/404"} component={NotFound} />
       {/* Final fallback route */}
       <Route component={NotFound} />
