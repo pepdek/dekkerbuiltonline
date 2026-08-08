@@ -222,8 +222,8 @@ export default function GeneralContractorGigHarbor() {
               <div className="space-y-4">
                 <div>
                   <p className="text-sm text-gray-400 mb-1">PHONE</p>
-                  <a href="tel:+14252766501" className="text-2xl font-bold text-[#b68a3c] hover:text-white transition-colors">
-                    (425) 276-6501
+                  <a href="tel:+15599050994" className="text-2xl font-bold text-[#b68a3c] hover:text-white transition-colors">
+                    (559) 905-0994
                   </a>
                 </div>
                 <div>
@@ -252,7 +252,7 @@ export default function GeneralContractorGigHarbor() {
                 <p className="font-bold mb-2">Renovision Design & Build</p>
                 <p className="text-gray-300 mb-4">
                   1400 112th Ave NE<br />
-                  Bellevue, WA 98004<br />
+                  Tacoma, WA 98004<br />
                   United States
                 </p>
               </a>

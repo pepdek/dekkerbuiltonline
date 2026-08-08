@@ -68,10 +68,10 @@ export default function Navbar() {
         {/* Right Section: Phone & CTA */}
         <div className="hidden md:flex items-center gap-4">
           <a
-            href="tel:+14252766501"
+            href="tel:+15599050994"
             className="text-[#333333] hover:text-[#b68a3c] font-medium transition-colors"
           >
-            (425) 276-6501
+            (559) 905-0994
           </a>
           <a
             href="https://online-booking.workiz.com/?ac=222496cf11c27d57caa0355901711c2872bdf8a41b9fe61368e9de0fed98cc44"
@@ -136,10 +136,10 @@ export default function Navbar() {
               </span>
             </Link>
             <a
-              href="tel:+14252766501"
+              href="tel:+15599050994"
               className="text-[#1E3A2E] font-bold text-lg"
             >
-              (425) 276-6501
+              (559) 905-0994
             </a>
             <a
               href="https://online-booking.workiz.com/?ac=222496cf11c27d57caa0355901711c2872bdf8a41b9fe61368e9de0fed98cc44"

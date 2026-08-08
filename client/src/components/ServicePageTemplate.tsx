@@ -95,10 +95,10 @@ export default function ServicePageTemplate({
           {/* CTA Buttons */}
           <div className="flex flex-col sm:flex-row gap-4">
             <a
-              href="tel:+14252766501"
+              href="tel:+15599050994"
               className="btn-primary text-center"
             >
-              (425) 276-6501
+              (559) 905-0994
             </a>
             <a
               href="https://online-booking.workiz.com/?ac=222496cf11c27d57caa0355901711c2872bdf8a41b9fe61368e9de0fed98cc44"
@@ -293,10 +293,10 @@ export default function ServicePageTemplate({
           </p>
           <div className="flex flex-col sm:flex-row justify-center gap-4">
             <a
-              href="tel:+14252766501"
+              href="tel:+15599050994"
               className="btn-gold"
             >
-              (425) 276-6501
+              (559) 905-0994
             </a>
             <a
               href="https://online-booking.workiz.com/?ac=222496cf11c27d57caa0355901711c2872bdf8a41b9fe61368e9de0fed98cc44"

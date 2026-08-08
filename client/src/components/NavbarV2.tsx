@@ -74,8 +74,8 @@ export default function NavbarV2() {
 
           {/* CTA Buttons */}
           <div className="hidden md:flex items-center gap-4">
-            <a href="tel:+14252766501" className="text-[#b68a3c] font-bold hover:text-[#1E3A2E] transition-colors">
-              (425) 276-6501
+            <a href="tel:+15599050994" className="text-[#b68a3c] font-bold hover:text-[#1E3A2E] transition-colors">
+              (559) 905-0994
             </a>
             <a
               href="https://online-booking.workiz.com/?ac=222496cf11c27d57caa0355901711c2872bdf8a41b9fe61368e9de0fed98cc44"
@@ -149,8 +149,8 @@ export default function NavbarV2() {
             </Link>
 
             <div className="px-4 py-4 border-t border-[#EEEEEE] space-y-3">
-              <a href="tel:+14252766501" className="block text-[#b68a3c] font-bold">
-                (425) 276-6501
+              <a href="tel:+15599050994" className="block text-[#b68a3c] font-bold">
+                (559) 905-0994
               </a>
               <a
                 href="https://online-booking.workiz.com/?ac=222496cf11c27d57caa0355901711c2872bdf8a41b9fe61368e9de0fed98cc44"

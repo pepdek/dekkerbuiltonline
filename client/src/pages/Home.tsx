@@ -33,13 +33,13 @@ export default function Home() {
                 CUSTOM HOMES · REMODELS · EXCEPTIONAL RESULTS
               </p>
               <h1 className="text-4xl md:text-5xl font-bold text-white mb-6 leading-tight">
-                Bellevue Home Remodeling by a Design-Build Contractor
+                Tacoma Home Remodeling by a Design-Build Contractor
               </h1>
               <p className="text-lg text-gray-100 mb-6">
                 Luxury renovations, one in-house team, start to finish. From AI 3D concept to final walkthrough.
               </p>
               <p className="text-base text-gray-200 mb-8">
-                Renovision Design & Build is Bellevue's full-service home remodeling contractor, serving the Seattle Eastside with custom kitchen remodels, bathroom renovations, whole-home remodels, and ADU construction. We design it, permit it, and build it. With one in-house crew, one point of contact, and one price.
+                Renovision Design & Build is Tacoma's full-service home remodeling contractor, serving the Seattle Eastside with custom kitchen remodels, bathroom renovations, whole-home remodels, and ADU construction. We design it, permit it, and build it. With one in-house crew, one point of contact, and one price.
               </p>
 
               {/* Key Benefits */}
@@ -94,7 +94,7 @@ export default function Home() {
       <section className="bg-[#F6F8F3] py-20">
         <div className="container mx-auto px-4">
           <h2 className="text-4xl font-bold text-[#1E3A2E] mb-4 text-center">
-            Why Bellevue Homeowners Choose Renovision Design & Build
+            Why Tacoma Homeowners Choose Renovision Design & Build
           </h2>
           <p className="text-gray-600 text-center mb-12 max-w-2xl mx-auto">
             For over two decades, homeowners across the Eastside have trusted us to deliver exceptional spaces that elevate everyday living — combining thoughtful design, transparent communication, and meticulous execution.
@@ -375,10 +375,10 @@ export default function Home() {
           </p>
           <div className="flex flex-col sm:flex-row justify-center gap-4">
             <a
-              href="tel:+14252766501"
+              href="tel:+15599050994"
               className="btn-gold"
             >
-              (425) 276-6501
+              (559) 905-0994
             </a>
             <a
               href="https://online-booking.workiz.com/?ac=222496cf11c27d57caa0355901711c2872bdf8a41b9fe61368e9de0fed98cc44"

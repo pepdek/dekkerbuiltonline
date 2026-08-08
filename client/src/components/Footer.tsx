@@ -143,7 +143,7 @@ export default function Footer() {
               <li>
                 <Link href="/general-contractor-bellevue">
                   <span className="text-gray-300 hover:text-[#b68a3c] transition-colors cursor-pointer">
-                    Bellevue
+                    Tacoma
                   </span>
                 </Link>
               </li>
@@ -184,10 +184,10 @@ export default function Footer() {
             <ul className="space-y-4 text-gray-300 text-sm">
               <li>
                 <a
-                  href="tel:+14252766501"
+                  href="tel:+15599050994"
                   className="hover:text-[#b68a3c] transition-colors font-bold"
                 >
-                  (425) 276-6501
+                  (559) 905-0994
                 </a>
               </li>
               <li>
@@ -197,7 +197,7 @@ export default function Footer() {
                   rel="noopener noreferrer"
                   className="hover:text-[#b68a3c] transition-colors"
                 >
-                  1400 112th Ave NE, Bellevue, WA 98004, United States
+                  1400 112th Ave NE, Tacoma, WA 98004, United States
                 </a>
               </li>
               <li>

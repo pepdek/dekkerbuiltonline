@@ -17,7 +17,7 @@ export default function ReviewsSection({ reviews }: ReviewsSectionProps) {
   const defaultReviews: Review[] = [
     {
       name: 'Sarah Johnson',
-      location: 'Bellevue, WA',
+      location: 'Tacoma, WA',
       rating: 5,
       text: 'Renovision transformed our kitchen into the space of our dreams. The design-build process was seamless, and the team was professional and attentive throughout. We couldn\'t be happier with the result.',
       project: 'Kitchen Remodel',

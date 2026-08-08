@@ -3,9 +3,9 @@ import ServicePageTemplate from '@/components/ServicePageTemplate';
 export default function DeckPatio() {
   return (
     <ServicePageTemplate
-      title="Custom Deck & Patio Construction in Bellevue & Pierce County"
+      title="Custom Deck & Patio Construction in Tacoma & Pierce County"
       subtitle="Build your outdoor living space. Premium materials, expert design, and year-round durability."
-      description="Renovision Design & Build specializes in custom deck and patio construction throughout Bellevue, Tacoma, Gig Harbor, Lakewood, Puyallup, and the greater Puget Sound region. From composite decking and hardscaping to pergolas and outdoor kitchens, we create outdoor living spaces that extend your home. In-house crews, transparent pricing, no subcontractors."
+      description="Renovision Design & Build specializes in custom deck and patio construction throughout Tacoma, Tacoma, Gig Harbor, Lakewood, Puyallup, and the greater Puget Sound region. From composite decking and hardscaping to pergolas and outdoor kitchens, we create outdoor living spaces that extend your home. In-house crews, transparent pricing, no subcontractors."
       timeline="8–14 weeks"
       investmentRange="$30k – $80k+"
       scope="Design + build"

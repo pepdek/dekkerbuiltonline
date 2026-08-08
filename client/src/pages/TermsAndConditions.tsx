@@ -110,8 +110,8 @@ export default function TermsAndConditions() {
               </p>
               <div className="mt-4 space-y-2">
                 <p><strong>Renovision Design & Build LLC</strong></p>
-                <p>1400 112th Ave NE<br />Bellevue, WA 98004<br />United States</p>
-                <p><a href="tel:+14252766501" className="text-[#b68a3c] hover:underline">(425) 276-6501</a></p>
+                <p>1400 112th Ave NE<br />Tacoma, WA 98004<br />United States</p>
+                <p><a href="tel:+15599050994" className="text-[#b68a3c] hover:underline">(559) 905-0994</a></p>
                 <p><a href="mailto:office@renovisiondesignandbuild.com" className="text-[#b68a3c] hover:underline">office@renovisiondesignandbuild.com</a></p>
               </div>
             </div>

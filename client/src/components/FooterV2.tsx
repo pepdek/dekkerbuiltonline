@@ -18,7 +18,7 @@ export default function FooterV2() {
     { label: 'About Us', href: '/about-us' },
     { label: 'Contact', href: '/contact' },
     { label: 'Project Gallery', href: '/project-gallery' },
-    { label: 'General Contractor Bellevue', href: '/general-contractor-bellevue' },
+    { label: 'General Contractor Tacoma', href: '/general-contractor-bellevue' },
   ];
 
   const legal = [
@@ -44,8 +44,8 @@ export default function FooterV2() {
             <div className="space-y-3">
               <div className="flex items-center gap-3">
                 <Phone className="w-4 h-4 text-[#b68a3c]" />
-                <a href="tel:+14252766501" className="text-sm hover:text-[#b68a3c] transition-colors">
-                  (425) 276-6501
+                <a href="tel:+15599050994" className="text-sm hover:text-[#b68a3c] transition-colors">
+                  (559) 905-0994
                 </a>
               </div>
               <div className="flex items-center gap-3">
@@ -58,7 +58,7 @@ export default function FooterV2() {
                 <MapPin className="w-4 h-4 text-[#b68a3c] mt-1 flex-shrink-0" />
                 <div className="text-sm">
                   <p>1400 112th Ave NE</p>
-                  <p>Bellevue, WA 98004</p>
+                  <p>Tacoma, WA 98004</p>
                 </div>
               </div>
               <div className="flex items-center gap-3">
@@ -120,7 +120,7 @@ export default function FooterV2() {
           <div>
             <h3 className="font-bold text-lg mb-4 text-[#b68a3c]">Service Areas</h3>
             <ul className="space-y-2 text-sm text-gray-300">
-              <li>Bellevue</li>
+              <li>Tacoma</li>
               <li>Kirkland</li>
               <li>Redmond</li>
               <li>Seattle</li>
@@ -181,7 +181,7 @@ export default function FooterV2() {
       <div className="bg-black bg-opacity-50 py-4">
         <div className="container mx-auto px-4">
           <p className="text-center text-xs text-gray-400">
-            Design-Build Excellence | Custom Homes & Renovations | Seattle, Bellevue & Eastside
+            Design-Build Excellence | Custom Homes & Renovations | Seattle, Tacoma & Eastside
           </p>
         </div>
       </div>

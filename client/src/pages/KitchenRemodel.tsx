@@ -3,9 +3,9 @@ import ServicePageTemplate from '@/components/ServicePageTemplate';
 export default function KitchenRemodel() {
   return (
     <ServicePageTemplate
-      title="Custom Kitchen Remodeling in Bellevue & Pierce County"
+      title="Custom Kitchen Remodeling in Tacoma & Pierce County"
       subtitle="Transform your kitchen into a culinary masterpiece. Visualize every detail in 3D before construction begins."
-      description="Renovision Design & Build specializes in luxury kitchen remodeling throughout Bellevue, Tacoma, Gig Harbor, Lakewood, Puyallup, and the greater Puget Sound region. Our integrated design-build approach handles everything—from custom cabinetry and premium countertops to appliance integration and lighting design. In-house crews, transparent pricing, no subcontractors."
+      description="Renovision Design & Build specializes in luxury kitchen remodeling throughout Tacoma, Tacoma, Gig Harbor, Lakewood, Puyallup, and the greater Puget Sound region. Our integrated design-build approach handles everything—from custom cabinetry and premium countertops to appliance integration and lighting design. In-house crews, transparent pricing, no subcontractors."
       timeline="8–12 weeks"
       investmentRange="$50k – $130k+"
       scope="Design + build"

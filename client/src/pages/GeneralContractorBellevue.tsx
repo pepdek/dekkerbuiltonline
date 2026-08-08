@@ -5,9 +5,9 @@ import Navbar from '@/components/Navbar';
 import Footer from '@/components/Footer';
 import StatsCounter from '@/components/StatsCounter';
 
-export default function GeneralContractorBellevue() {
+export default function GeneralContractorTacoma() {
   const serviceAreas = [
-    'Bellevue',
+    'Tacoma',
     'Kirkland',
     'Redmond',
     'Mercer Island',
@@ -59,14 +59,14 @@ export default function GeneralContractorBellevue() {
         <div className="container mx-auto px-4">
           <p className="text-[#b68a3c] font-bold text-sm tracking-wide mb-4">BELLEVUE & EASTSIDE</p>
           <h1 className="text-4xl md:text-5xl font-bold text-[#1E3A2E] mb-6">
-            General Contractor in Bellevue, WA
+            General Contractor in Tacoma, WA
           </h1>
           <p className="text-lg text-gray-600 max-w-3xl mb-6">
-            Renovision Design & Build is Bellevue's trusted design-build contractor for custom homes, kitchen remodels, bathroom renovations, and whole-home transformations. Serving Bellevue, Kirkland, Redmond, and the greater Eastside with in-house crews, transparent pricing, and exceptional craftsmanship.
+            Renovision Design & Build is Tacoma's trusted design-build contractor for custom homes, kitchen remodels, bathroom renovations, and whole-home transformations. Serving Tacoma, Kirkland, Redmond, and the greater Eastside with in-house crews, transparent pricing, and exceptional craftsmanship.
           </p>
           <div className="flex items-center gap-2 text-gray-700">
             <MapPin className="w-5 h-5 text-[#b68a3c]" />
-            <p>1400 112th Ave NE, Bellevue, WA 98004</p>
+            <p>1400 112th Ave NE, Tacoma, WA 98004</p>
           </div>
         </div>
       </section>
@@ -84,7 +84,7 @@ export default function GeneralContractorBellevue() {
       <section className="py-20">
         <div className="container mx-auto px-4">
           <h2 className="text-4xl font-bold text-[#1E3A2E] mb-12">
-            Why Choose Renovision for Your Bellevue Home
+            Why Choose Renovision for Your Tacoma Home
           </h2>
 
           <div className="grid grid-cols-1 md:grid-cols-2 gap-12">
@@ -93,10 +93,10 @@ export default function GeneralContractorBellevue() {
                 <CheckCircle2 className="w-6 h-6 text-[#b68a3c] mt-1 flex-shrink-0" />
                 <div>
                   <h3 className="text-xl font-bold text-[#1E3A2E] mb-2">
-                    Local Bellevue Expertise
+                    Local Tacoma Expertise
                   </h3>
                   <p className="text-gray-600">
-                    Deep roots in Bellevue and the Eastside. We understand local zoning, building codes, and the unique character of Bellevue neighborhoods.
+                    Deep roots in Tacoma and the Eastside. We understand local zoning, building codes, and the unique character of Tacoma neighborhoods.
                   </p>
                 </div>
               </div>
@@ -202,7 +202,7 @@ export default function GeneralContractorBellevue() {
           </h2>
 
           <p className="text-lg text-gray-600 mb-8 max-w-2xl">
-            Renovision Design & Build serves Bellevue and the greater Seattle Eastside. We work throughout the following areas:
+            Renovision Design & Build serves Tacoma and the greater Seattle Eastside. We work throughout the following areas:
           </p>
 
           <div className="grid grid-cols-2 md:grid-cols-4 gap-6">
@@ -228,13 +228,13 @@ export default function GeneralContractorBellevue() {
                 Get in Touch
               </h2>
               <p className="text-gray-300 mb-8">
-                Schedule a free consultation to discuss your Bellevue home project. We'll walk your space, understand your vision, and provide a transparent estimate.
+                Schedule a free consultation to discuss your Tacoma home project. We'll walk your space, understand your vision, and provide a transparent estimate.
               </p>
               <div className="space-y-4">
                 <div>
                   <p className="text-sm text-gray-400 mb-1">PHONE</p>
-                  <a href="tel:+14252766501" className="text-2xl font-bold text-[#b68a3c] hover:text-white transition-colors">
-                    (425) 276-6501
+                  <a href="tel:+15599050994" className="text-2xl font-bold text-[#b68a3c] hover:text-white transition-colors">
+                    (559) 905-0994
                   </a>
                 </div>
                 <div>
@@ -263,7 +263,7 @@ export default function GeneralContractorBellevue() {
                 <p className="font-bold mb-2">Renovision Design & Build</p>
                 <p className="text-gray-300 mb-4">
                   1400 112th Ave NE<br />
-                  Bellevue, WA 98004<br />
+                  Tacoma, WA 98004<br />
                   United States
                 </p>
               </a>

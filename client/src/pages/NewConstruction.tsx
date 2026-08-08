@@ -3,9 +3,9 @@ import ServicePageTemplate from '@/components/ServicePageTemplate';
 export default function NewConstruction() {
   return (
     <ServicePageTemplate
-      title="New Home Construction in Bellevue & Pierce County"
+      title="New Home Construction in Tacoma & Pierce County"
       subtitle="Build your dream home from the ground up. Expert design, permitting, and construction management."
-      description="Renovision Design & Build specializes in new home construction throughout Bellevue, Tacoma, Gig Harbor, Lakewood, Puyallup, and the greater Puget Sound region. From site selection and design to permitting and final walkthrough, we manage every phase of your new home project. In-house crews, transparent pricing, no subcontractors."
+      description="Renovision Design & Build specializes in new home construction throughout Tacoma, Tacoma, Gig Harbor, Lakewood, Puyallup, and the greater Puget Sound region. From site selection and design to permitting and final walkthrough, we manage every phase of your new home project. In-house crews, transparent pricing, no subcontractors."
       timeline="24–36 weeks"
       investmentRange="$300k – $1M+"
       scope="Design + build"

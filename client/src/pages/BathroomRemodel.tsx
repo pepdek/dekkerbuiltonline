@@ -3,9 +3,9 @@ import ServicePageTemplate from '@/components/ServicePageTemplate';
 export default function BathroomRemodel() {
   return (
     <ServicePageTemplate
-      title="Luxury Bathroom Remodeling in Bellevue & Pierce County"
+      title="Luxury Bathroom Remodeling in Tacoma & Pierce County"
       subtitle="Create your personal spa retreat. Premium fixtures, waterproofing, and design excellence."
-      description="Renovision Design & Build specializes in luxury bathroom remodeling throughout Bellevue, Tacoma, Gig Harbor, Lakewood, Puyallup, and the greater Puget Sound region. From master bath suites to powder rooms, we handle custom tile work, premium fixtures, heated floors, and spa-like finishes. In-house crews, transparent pricing, no subcontractors."
+      description="Renovision Design & Build specializes in luxury bathroom remodeling throughout Tacoma, Tacoma, Gig Harbor, Lakewood, Puyallup, and the greater Puget Sound region. From master bath suites to powder rooms, we handle custom tile work, premium fixtures, heated floors, and spa-like finishes. In-house crews, transparent pricing, no subcontractors."
       timeline="6–10 weeks"
       investmentRange="$25k – $75k+"
       scope="Design + build"

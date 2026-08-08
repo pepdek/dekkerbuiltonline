@@ -14,7 +14,7 @@ export default function AboutUs() {
         <div className="container mx-auto px-4">
           <p className="text-[#b68a3c] font-bold text-sm tracking-wide mb-4">ABOUT US</p>
           <h1 className="text-4xl md:text-5xl font-bold text-[#1E3A2E] mb-6">
-            About Renovision Design & Build - Bellevue's Premier Design-Build Contractor
+            About Renovision Design & Build - Tacoma's Premier Design-Build Contractor
           </h1>
           <p className="text-lg text-gray-600 max-w-3xl">
             Affordable luxury, built to last. We combine thoughtful design, transparent communication, and meticulous execution to deliver exceptional spaces that elevate everyday living.
@@ -198,10 +198,10 @@ export default function AboutUs() {
           </p>
           <div className="flex flex-col sm:flex-row justify-center gap-4">
             <a
-              href="tel:+14252766501"
+              href="tel:+15599050994"
               className="btn-gold"
             >
-              (425) 276-6501
+              (559) 905-0994
             </a>
             <a
               href="https://online-booking.workiz.com/?ac=222496cf11c27d57caa0355901711c2872bdf8a41b9fe61368e9de0fed98cc44"

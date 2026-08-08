@@ -3,9 +3,9 @@ import ServicePageTemplate from '@/components/ServicePageTemplate';
 export default function WholeHomeRemodel() {
   return (
     <ServicePageTemplate
-      title="Complete Whole Home Remodeling in Bellevue & Pierce County"
+      title="Complete Whole Home Remodeling in Tacoma & Pierce County"
       subtitle="Transform your entire home from top to bottom. Comprehensive renovation with seamless design integration."
-      description="Renovision Design & Build specializes in complete whole-home remodeling throughout Bellevue, Tacoma, Gig Harbor, Lakewood, Puyallup, and the greater Puget Sound region. From structural upgrades to interior finishes, we manage every phase of your home transformation. In-house crews, transparent pricing, no subcontractors."
+      description="Renovision Design & Build specializes in complete whole-home remodeling throughout Tacoma, Tacoma, Gig Harbor, Lakewood, Puyallup, and the greater Puget Sound region. From structural upgrades to interior finishes, we manage every phase of your home transformation. In-house crews, transparent pricing, no subcontractors."
       timeline="16–24 weeks"
       investmentRange="$150k – $500k+"
       scope="Design + build"

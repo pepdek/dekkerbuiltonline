@@ -3,9 +3,9 @@ import ServicePageTemplate from '@/components/ServicePageTemplate';
 export default function BasementRemodel() {
   return (
     <ServicePageTemplate
-      title="Basement Remodeling & Finishing in Bellevue & Pierce County"
+      title="Basement Remodeling & Finishing in Tacoma & Pierce County"
       subtitle="Convert unused basement space into functional living areas. Moisture control, egress windows, and premium finishes."
-      description="Renovision Design & Build specializes in basement remodeling and finishing throughout Bellevue, Tacoma, Gig Harbor, Lakewood, Puyallup, and the greater Puget Sound region. From moisture control and egress windows to flooring and lighting, we transform basements into valuable living space. In-house crews, transparent pricing, no subcontractors."
+      description="Renovision Design & Build specializes in basement remodeling and finishing throughout Tacoma, Tacoma, Gig Harbor, Lakewood, Puyallup, and the greater Puget Sound region. From moisture control and egress windows to flooring and lighting, we transform basements into valuable living space. In-house crews, transparent pricing, no subcontractors."
       timeline="10–16 weeks"
       investmentRange="$40k – $100k+"
       scope="Design + build"

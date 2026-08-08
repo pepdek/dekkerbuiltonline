@@ -3,9 +3,9 @@ import ServicePageTemplate from '@/components/ServicePageTemplate';
 export default function ADUConstruction() {
   return (
     <ServicePageTemplate
-      title="ADU Construction & Accessory Dwelling Unit Design in Bellevue & Pierce County"
+      title="ADU Construction & Accessory Dwelling Unit Design in Tacoma & Pierce County"
       subtitle="Build an ADU to maximize property value and rental income. Expert permitting and design-build construction."
-      description="Renovision Design & Build specializes in ADU construction throughout Bellevue, Tacoma, Gig Harbor, Lakewood, Puyallup, and the greater Puget Sound region. From site assessment and design to permitting and construction, we handle every phase of your accessory dwelling unit project. In-house crews, transparent pricing, no subcontractors."
+      description="Renovision Design & Build specializes in ADU construction throughout Tacoma, Tacoma, Gig Harbor, Lakewood, Puyallup, and the greater Puget Sound region. From site assessment and design to permitting and construction, we handle every phase of your accessory dwelling unit project. In-house crews, transparent pricing, no subcontractors."
       timeline="20–28 weeks"
       investmentRange="$120k – $300k+"
       scope="Design + build"

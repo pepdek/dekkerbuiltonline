@@ -35,10 +35,10 @@ export default function Contact() {
               <div>
                 <h3 className="text-sm font-bold text-[#b68a3c] tracking-wide mb-4">CALL</h3>
                 <a
-                  href="tel:+14252766501"
+                  href="tel:+15599050994"
                   className="text-2xl font-bold text-[#1E3A2E] hover:text-[#b68a3c] transition-colors"
                 >
-                  (425) 276-6501
+                  (559) 905-0994
                 </a>
                 <p className="text-sm text-gray-600 mt-2">Mon-Fri, 8am-5pm</p>
               </div>
@@ -72,7 +72,7 @@ export default function Contact() {
                   className="text-[#1E3A2E] hover:text-[#b68a3c] transition-colors"
                 >
                   <p className="font-bold mb-1">1400 112th Ave NE</p>
-                  <p>Bellevue, WA 98004</p>
+                  <p>Tacoma, WA 98004</p>
                   <p>United States</p>
                 </a>
               </div>
