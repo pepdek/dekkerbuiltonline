@@ -3,124 +3,136 @@ import ServicePageTemplate from '@/components/ServicePageTemplate';
 export default function WholeHomeRemodel() {
   return (
     <ServicePageTemplate
-      title="Whole Home Remodel"
-      subtitle="A top-to-bottom transformation, managed end to end."
-      description="Renovision Design & Build transforms entire homes—from kitchen and bathrooms to flooring, electrical, and structural changes. Our in-house team coordinates every trade under one roof, ensuring a seamless, single-schedule project with one point of contact and one price."
-      timeline="3–6 months"
-      investmentRange="$200k+"
+      title="Complete Whole Home Remodeling in Bellevue & Pierce County"
+      subtitle="Transform your entire home from top to bottom. Comprehensive renovation with seamless design integration."
+      description="Renovision Design & Build specializes in complete whole-home remodeling throughout Bellevue, Tacoma, Gig Harbor, Lakewood, Puyallup, and the greater Puget Sound region. From structural upgrades to interior finishes, we manage every phase of your home transformation. In-house crews, transparent pricing, no subcontractors."
+      timeline="16–24 weeks"
+      investmentRange="$150k – $500k+"
       scope="Design + build"
       keyBenefits={[
         {
-          title: 'In-house crews',
-          description: 'All trades managed by Renovision—no subcontractor handoffs',
+          title: 'Comprehensive Home Transformation',
+          description: 'Structural upgrades, systems replacement, and complete interior redesign',
         },
         {
-          title: 'AI 3D design visualization',
-          description: 'See your entire home transformed before construction',
+          title: 'Single Point of Accountability',
+          description: 'One firm manages all phases—no coordination issues between contractors',
         },
         {
-          title: 'Single schedule & point of contact',
-          description: 'No coordination headaches between separate contractors',
+          title: 'Integrated Project Management',
+          description: 'Seamless workflow from design through final walkthrough',
         },
       ]}
-      whyChooseTitle="Why Seattle Homeowners Choose Renovision for Whole Home Remodels"
-      whyChooseIntro="A whole-home remodel is complex. Multiple trades, long timelines, and coordination challenges often lead to cost overruns and delays. Our design-build model eliminates these risks by managing every aspect under one team, one schedule, and one contract."
+      whyChooseTitle="Why Homeowners Choose Renovision for Whole Home Remodeling"
+      whyChooseIntro="A whole-home remodel is a major undertaking that requires exceptional project management, clear communication, and accountability. Our design-build approach ensures your entire home is transformed cohesively, with one team responsible for every detail."
       whyChooseFeatures={[
         {
-          title: 'Integrated Design & Execution',
-          description: 'Our design team works with your crew leads to ensure every detail—from electrical placement to plumbing runs—is coordinated before construction begins. No surprises, no change orders.',
+          title: 'Comprehensive Project Management',
+          description: 'Whole-home remodels involve multiple trades, permits, and inspections. We coordinate every phase—structural, mechanical, electrical, plumbing, and finishes—to ensure seamless execution and no delays.',
         },
         {
-          title: 'Efficient Project Management',
-          description: 'One schedule. One point of contact. All trades coordinated daily. You avoid the chaos of managing separate contractors and conflicting timelines.',
+          title: 'Integrated Design Vision',
+          description: 'Rather than piecemeal updates, we design your entire home with cohesive flow, consistent finishes, and unified aesthetics. Your new kitchen connects seamlessly to your remodeled living spaces.',
         },
         {
-          title: 'Structural & Systems Expertise',
-          description: 'Whole-home projects often involve structural changes, electrical upgrades, and HVAC modifications. Our in-house team has the expertise to handle it all safely and to code.',
+          title: 'Systems Upgrades & Modernization',
+          description: 'We upgrade electrical, plumbing, HVAC, and insulation to current standards. Your home is not just beautiful—it is efficient, safe, and future-proof.',
         },
         {
-          title: 'Fixed-Price Accountability',
-          description: 'You know the cost upfront. We manage the complexity so you do not have to.',
+          title: 'Fixed-Price Whole Home Remodeling',
+          description: 'You know the total investment upfront. No hidden costs for structural surprises or system upgrades—all included in the proposal.',
         },
       ]}
       services={[
         {
-          title: 'Kitchen remodels',
-          description: 'Full gut, layout changes, custom cabinetry, appliance integration.',
+          title: 'Structural Assessment & Upgrades',
+          description: 'Foundation evaluation, load-bearing wall modifications, and structural reinforcement.',
         },
         {
-          title: 'Bathroom remodels',
-          description: 'Master suites, powder rooms, tile work, plumbing upgrades.',
+          title: 'Systems Modernization',
+          description: 'Electrical panel upgrades, plumbing replacement, HVAC installation, and insulation improvements.',
         },
         {
-          title: 'Flooring throughout',
-          description: 'Hardwood, LVP, tile—coordinated across the entire home.',
+          title: 'Kitchen & Bathroom Renovation',
+          description: 'Complete redesign of all kitchens and bathrooms with premium finishes.',
         },
         {
-          title: 'Electrical upgrades',
-          description: 'New circuits, outlets, lighting, smart home integration.',
+          title: 'Open-Concept Conversion',
+          description: 'Wall removal, beam installation, and seamless flow between living spaces.',
         },
         {
-          title: 'HVAC systems',
-          description: 'New furnace, AC, ductwork, zone control.',
+          title: 'Flooring Throughout',
+          description: 'Consistent flooring design across all spaces—hardwood, tile, or luxury vinyl.',
         },
         {
-          title: 'Structural changes',
-          description: 'Wall removal, beam installation, layout reconfiguration.',
+          title: 'Interior Finishes & Paint',
+          description: 'Drywall, paint, trim, and custom finishes throughout the home.',
         },
         {
-          title: 'Exterior updates',
-          description: 'Siding, roofing, windows, doors, decks.',
+          title: 'Lighting & Electrical Design',
+          description: 'Comprehensive lighting plan with recessed, ambient, and task lighting.',
         },
         {
-          title: 'Interior finishes',
-          description: 'Drywall, paint, trim, doors, hardware.',
+          title: 'Exterior Updates',
+          description: 'Roofing, siding, windows, doors, and landscaping (if included in scope).',
         },
       ]}
       whatIncluded={[
-        'Kitchen & bathroom remodels',
-        'Flooring throughout',
-        'Electrical & lighting upgrades',
-        'Plumbing updates',
-        'HVAC systems',
-        'Structural modifications',
-        'Interior & exterior finishes',
-        'Permits & project management',
+        'Comprehensive 3D home design and renderings',
+        'Structural engineering and assessment',
+        'Electrical system design and upgrade',
+        'Plumbing system design and upgrade',
+        'HVAC design and installation',
+        'Insulation and weatherproofing',
+        'All permits and inspections',
+        'Kitchen and bathroom renovation',
+        'Flooring installation throughout',
+        'Interior painting and finishes',
+        'Lighting and electrical fixtures',
+        'Final walkthrough and documentation',
       ]}
       processSteps={[
         {
-          title: 'Comprehensive Consultation',
-          description: 'We walk your entire home, discuss your vision, and identify priorities. We assess structural, electrical, plumbing, and HVAC needs.',
+          title: 'Comprehensive Home Assessment & Design',
+          description: 'We conduct a detailed assessment of your home—structure, systems, and condition. We discuss your vision for the entire space and create a comprehensive 3D design showing all phases.',
         },
         {
-          title: 'Master Plan & 3D Design',
-          description: 'Our design team creates a comprehensive plan covering all rooms and systems. You approve the design and phasing before construction.',
+          title: 'Structural & Systems Planning',
+          description: 'Our engineers evaluate structural needs, electrical capacity, plumbing requirements, and HVAC design. We plan all upgrades to modern standards and building codes.',
         },
         {
-          title: 'Detailed Proposal & Permits',
-          description: 'Clear breakdown of all costs, timelines, and phases. We handle all permits and inspections.',
+          title: 'Phased Construction & Coordination',
+          description: 'We manage all trades in coordinated phases—structural first, then systems, then finishes. Weekly updates keep you informed of progress.',
         },
         {
-          title: 'Coordinated Build & Management',
-          description: 'All trades work on one schedule. Weekly updates, daily coordination, and one point of contact throughout.',
+          title: 'Final Inspection & Handoff',
+          description: 'After all phases complete, we conduct final inspections, address punch-list items, and provide full documentation. Your home is completely transformed and ready to enjoy.',
         },
       ]}
       faqs={[
         {
           question: 'How long does a whole-home remodel take?',
-          answer: 'Most whole-home remodels take 3–6 months, depending on scope and complexity. We provide a detailed timeline and phasing plan upfront.',
+          answer: 'Whole-home remodels typically take 16–24 weeks depending on the scope, size, and complexity. We provide a detailed timeline upfront and manage each phase to stay on schedule.',
         },
         {
-          question: 'Can we live in our home during a whole-home remodel?',
-          answer: 'It depends on the scope. For partial remodels, we can often set up temporary spaces. For extensive remodels, temporary housing may be necessary. We discuss this during the consultation.',
+          question: 'What is the average cost of a whole-home remodel?',
+          answer: 'Whole-home remodels typically range from $150,000 to $500,000+, depending on the home size, scope, and finishes. We provide a fixed-price proposal upfront so you know the total investment.',
         },
         {
-          question: 'How do you manage multiple trades on one schedule?',
-          answer: 'Detailed planning and daily coordination. Our project manager ensures trades are sequenced efficiently and communicate daily. This prevents delays and conflicts.',
+          question: 'Can we live in the home during the remodel?',
+          answer: 'For major whole-home remodels, we recommend temporary relocation. However, we can discuss phasing the project to minimize disruption if you prefer to stay.',
         },
         {
-          question: 'What if we want to add or change something during the project?',
-          answer: 'Changes are possible but managed carefully. We discuss the impact on timeline and cost upfront. Our design-build model minimizes surprises by planning thoroughly before work begins.',
+          question: 'Do you handle all permits and inspections?',
+          answer: 'Yes. All permitting, inspections, and code compliance are included in our scope. We manage the entire process with city authorities.',
+        },
+        {
+          question: 'What if structural issues are discovered during construction?',
+          answer: 'We conduct a thorough assessment upfront to anticipate structural needs. If unexpected issues arise, we discuss options and provide cost adjustments transparently.',
+        },
+        {
+          question: 'Can you upgrade systems during the remodel?',
+          answer: 'Yes. Whole-home remodels are the perfect time to upgrade electrical, plumbing, HVAC, and insulation to modern standards. We include system assessments in our initial proposal.',
         },
       ]}
     />

@@ -3,131 +3,135 @@ import ServicePageTemplate from '@/components/ServicePageTemplate';
 export default function KitchenRemodel() {
   return (
     <ServicePageTemplate
-      title="Kitchen Remodeling"
-      subtitle="Imagine your new kitchen. Explore it in 3D before the first hammer swings."
-      description="Renovision Design & Build provides custom kitchen remodeling throughout Seattle, Bellevue, Kirkland, Redmond, and the greater Eastside. Our in-house team manages design, permits, and construction from start to finish. We do not use subcontractors or handoffs, ensuring one firm, one point of contact, and one price."
+      title="Custom Kitchen Remodeling in Bellevue & Pierce County"
+      subtitle="Transform your kitchen into a culinary masterpiece. Visualize every detail in 3D before construction begins."
+      description="Renovision Design & Build specializes in luxury kitchen remodeling throughout Bellevue, Tacoma, Gig Harbor, Lakewood, Puyallup, and the greater Puget Sound region. Our integrated design-build approach handles everything—from custom cabinetry and premium countertops to appliance integration and lighting design. In-house crews, transparent pricing, no subcontractors."
       timeline="8–12 weeks"
       investmentRange="$50k – $130k+"
       scope="Design + build"
       keyBenefits={[
         {
-          title: 'In-house crews',
-          description: 'All trades employed directly by Renovision',
+          title: 'Custom Cabinetry & Layout Design',
+          description: 'Full inset, semi-custom, and flat-panel designs tailored to your space',
         },
         {
-          title: 'AI 3D design visualization',
-          description: 'See your kitchen before construction begins',
+          title: 'AI 3D Visualization & Approval',
+          description: 'See your complete kitchen design before any construction begins',
         },
         {
-          title: 'Licensed & insured',
-          description: 'BBB Accredited, serving Greater Seattle & Puget Sound',
+          title: 'Premium Materials & Finishes',
+          description: 'Quartz, marble, granite countertops and high-end appliance integration',
         },
       ]}
-      whyChooseTitle="Why Seattle Homeowners Choose Renovision Design & Build"
-      whyChooseIntro="Homeowners investing $50,000–$130,000 in a kitchen remodel seek more than the lowest bid. They want a firm that can realize their vision, manage permits, and deliver the project without unexpected change orders that often result from hiring separate architects and general contractors. The design-build model provides this integrated approach."
+      whyChooseTitle="Why Homeowners Choose Renovision for Kitchen Remodeling"
+      whyChooseIntro="A kitchen remodel is one of the highest-value home investments. You deserve a contractor who understands design, manages permits, and delivers without surprises. Our design-build model integrates architecture, permitting, and construction into one seamless process."
       whyChooseFeatures={[
         {
-          title: 'AI 3D Design Visualization',
-          description: 'Before any materials are ordered or construction begins, you approve a photorealistic 3D rendering of your new kitchen. You can adjust the layout, select countertop materials, or reposition the island. All before work starts. While most contractors provide only a floor plan, we ensure you see the complete vision.',
+          title: 'Photorealistic 3D Kitchen Design',
+          description: 'Before ordering materials or framing walls, you approve a photorealistic rendering of your new kitchen. Adjust layouts, select countertop colors, reposition the island, and visualize lighting. Most contractors show floor plans; we show your complete vision.',
         },
         {
-          title: 'In-House Crews Only',
-          description: 'All tradespeople on your project are employed directly by Renovision, including carpenters, tile setters, electricians, and plumbers. If an issue arises, there is no shifting of responsibility. We are fully accountable for every aspect of your project.',
+          title: 'In-House Kitchen Specialists',
+          description: 'All carpenters, tile setters, electricians, and plumbers are Renovision employees. No subcontractor handoffs. One team, one accountability, one point of contact from design approval to final walkthrough.',
         },
         {
-          title: 'Full-Cycle Design-Build',
-          description: 'When your architect and general contractor are separate companies, design revisions often require multiple change orders. With design-build, revisions are managed seamlessly. You benefit from one contract, one schedule, and one team from concept to completion.',
+          title: 'Integrated Design-Build Process',
+          description: 'When architects and general contractors are separate, design changes trigger change orders. With design-build, revisions are seamless. One contract, one schedule, one firm responsible for every detail.',
         },
         {
-          title: 'Transparent Pricing',
-          description: 'You see the full number before we start — no creeping change orders. Our fixed-price proposals include all labor, materials, and permits.',
+          title: 'Fixed-Price Kitchen Remodeling',
+          description: 'You see the final number before we start. No hidden costs, no creeping change orders. Our proposals include all labor, materials, permits, and inspections.',
         },
       ]}
       services={[
         {
-          title: 'Full gut remodels',
-          description: 'New layout, new framing, new everything. Best ROI on $80,000+ projects in Bellevue and Eastside markets.',
+          title: 'Full Kitchen Gut Remodels',
+          description: 'Complete layout redesign with new framing, plumbing, electrical, and finishes. Best ROI for $80,000+ projects.',
         },
         {
-          title: 'Open-concept conversions',
-          description: 'Wall removal, structural beam installation, full layout redesign.',
+          title: 'Open-Concept Kitchen Conversions',
+          description: 'Wall removal, structural beam installation, and seamless flow into dining and living areas.',
         },
         {
-          title: 'Cabinet replacement and refacing',
-          description: 'Update the look without moving walls.',
+          title: 'Custom Cabinetry Installation',
+          description: 'Full inset, semi-custom, and flat-panel designs with soft-close hinges and premium hardware.',
         },
         {
-          title: 'Custom cabinetry',
-          description: 'Full inset, semi-custom, and flat-panel designs; all wood, soft-close.',
+          title: 'Premium Countertop Selection & Installation',
+          description: 'Quartz, quartzite, marble, leathered granite, butcher block, and waterfall edges.',
         },
         {
-          title: 'Countertop installation',
-          description: 'Quartz, quartzite, marble, leathered granite, butcher block.',
+          title: 'Kitchen Island Design & Build',
+          description: 'Functional islands with seating, storage, and integrated appliances. Design, permit, and construction included.',
         },
         {
-          title: 'Kitchen island additions',
-          description: 'Design, permit, and construction included.',
+          title: 'Appliance Integration & Ventilation',
+          description: 'Built-in refrigerators, integrated dishwashers, professional range hoods, and ventilation systems.',
         },
         {
-          title: 'Appliance integration',
-          description: 'Built-in refrigerators, integrated dishwashers, range hood ventilation.',
+          title: 'Lighting Design & Installation',
+          description: 'Recessed LED, under-cabinet lighting, statement pendants, and task lighting for every zone.',
         },
         {
-          title: 'Lighting redesign',
-          description: 'Recessed, under-cabinet LED, statement pendants over island.',
+          title: 'Backsplash & Tile Work',
+          description: 'Custom tile patterns, subway tile, mosaic designs, and premium grout finishes.',
         },
       ]}
       whatIncluded={[
-        'Custom cabinetry & islands',
-        'Stone & quartz countertops',
-        'Lighting & electrical',
-        'Plumbing fixtures',
-        'Appliance integration',
-        'Flooring & tile work',
-        'Backsplash installation',
-        'Permits & project management',
+        'Detailed 3D kitchen design and renderings',
+        'Structural engineering (if walls are removed)',
+        'Electrical and plumbing design',
+        'Permits and inspections',
+        'Cabinet fabrication and installation',
+        'Countertop fabrication and installation',
+        'Tile and backsplash installation',
+        'Appliance delivery and integration',
+        'Lighting installation',
+        'Flooring (if included in scope)',
+        'Final walkthrough and punch list',
       ]}
       processSteps={[
         {
-          title: 'Free Design Consultation',
-          description: 'We walk your kitchen, ask how you use it, and discuss what is working and what is not. You tell us your priorities; we tell you what is realistic at your budget. No pressure, no upsell.',
+          title: 'Kitchen Design & 3D Visualization',
+          description: 'We meet at your home to understand your vision, measure the space, and discuss layout preferences. Within 2 weeks, you receive a photorealistic 3D rendering. You approve the design before we move forward.',
         },
         {
-          title: 'AI 3D Design',
-          description: 'Our design team produces photorealistic renders of your proposed kitchen. Cabinet layout, countertop material, fixture finishes, lighting. All visible before construction begins. Revisions are included in the design phase.',
+          title: 'Permitting & Material Selection',
+          description: 'We handle all permitting with local authorities. You select countertop colors, cabinet styles, appliances, and tile finishes from our curated vendors.',
         },
         {
-          title: 'Proposal & Permits',
-          description: 'We give you a clear, itemized kitchen remodel estimate for materials, labor, and permits, so you understand all costs upfront. After approval, we handle all required permits.',
+          title: 'Construction & In-House Installation',
+          description: 'Our in-house crews begin demolition and framing. Carpenters, electricians, plumbers, and tile setters work in coordinated phases. You receive weekly progress updates.',
         },
         {
-          title: 'Build & Walkthrough',
-          description: 'A dedicated lead and our own crew manage the build. Weekly updates keep you informed. Final walkthrough, punch-list, and workmanship warranty.',
-        },
-      ]}
-      relatedProjects={[
-        {
-          title: 'Full Kitchen Remodel In A Century-Old Seattle Home',
-          image: '/manus-storage/kitchen-project_59bb9660.webp',
-          link: '/project/century-old-home-kitchen-remodel-seattle',
+          title: 'Final Inspection & Styling',
+          description: 'After all trades complete their work, we conduct a final inspection, address any punch-list items, and style your new kitchen. You receive full documentation and warranty information.',
         },
       ]}
       faqs={[
         {
-          question: 'How long does a kitchen remodel take in Seattle?',
-          answer: 'Most kitchen remodels take 8–12 weeks from start to finish. The timeline depends on the scope (full gut vs. refresh), permit processing time, and material lead times. We provide a detailed schedule upfront.',
+          question: 'How long does a kitchen remodel take?',
+          answer: 'Most kitchen remodels take 8–12 weeks from design approval to final walkthrough. The timeline depends on the scope (full remodel vs. cabinet replacement), permit processing time, and material lead times.',
         },
         {
-          question: 'Can we live in our home during a kitchen remodel?',
-          answer: 'Yes. We set up a temporary kitchen in an adjacent space, manage dust containment, and coordinate work hours to minimize disruption. Many of our clients stay in their homes throughout the project.',
+          question: 'What is the average cost of a kitchen remodel?',
+          answer: 'Kitchen remodels typically range from $50,000 to $130,000+, depending on materials, layout complexity, and finishes. We provide a fixed-price proposal upfront so you know the total investment before work begins.',
         },
         {
-          question: 'What is the return on a kitchen remodel in the Seattle market?',
-          answer: 'A well-executed kitchen remodel typically returns 50–70% of its cost at resale, depending on the scope and market conditions. More importantly, you enjoy the improved space for years before any resale.',
+          question: 'Can you work with my existing layout?',
+          answer: 'Yes. We offer cabinet replacement, countertop upgrades, and appliance integration without moving walls. However, open-concept conversions and layout redesigns are also available if you want a fresh configuration.',
         },
         {
-          question: 'Why choose a design-build firm over a separate architect and general contractor?',
-          answer: 'Design-build eliminates communication gaps, reduces change orders, and ensures accountability. One team, one vision, one price. You avoid the coordination headaches and cost overruns that often result from hiring separate firms.',
+          question: 'Do you handle permits and inspections?',
+          answer: 'Yes. All permitting, inspections, and code compliance are included in our scope. We manage the entire process so you do not have to coordinate with the city.',
+        },
+        {
+          question: 'What if I want to change the design during construction?',
+          answer: 'Design changes are addressed quickly with our integrated design-build model. We discuss the change, provide a cost adjustment if needed, and implement it without the delays typical of separate architect-contractor relationships.',
+        },
+        {
+          question: 'Do you offer financing options?',
+          answer: 'We can recommend financing partners. Many homeowners use home equity lines of credit or personal loans. Contact us to discuss options.',
         },
       ]}
     />

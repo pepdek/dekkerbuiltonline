@@ -3,131 +3,136 @@ import ServicePageTemplate from '@/components/ServicePageTemplate';
 export default function BathroomRemodel() {
   return (
     <ServicePageTemplate
-      title="Bathroom Remodeling"
-      subtitle="Spa-calm bathrooms with tile, stone, and warm light."
-      description="Renovision Design & Build specializes in bathroom remodeling throughout Seattle, Bellevue, Kirkland, Redmond, and the greater Eastside. From master suite overhauls to powder room refreshes, our in-house team handles every detail—plumbing, tile, electrical, and fixtures—under one roof."
-      timeline="5–8 weeks"
-      investmentRange="$35k – $95k"
+      title="Luxury Bathroom Remodeling in Bellevue & Pierce County"
+      subtitle="Create your personal spa retreat. Premium fixtures, waterproofing, and design excellence."
+      description="Renovision Design & Build specializes in luxury bathroom remodeling throughout Bellevue, Tacoma, Gig Harbor, Lakewood, Puyallup, and the greater Puget Sound region. From master bath suites to powder rooms, we handle custom tile work, premium fixtures, heated floors, and spa-like finishes. In-house crews, transparent pricing, no subcontractors."
+      timeline="6–10 weeks"
+      investmentRange="$25k – $75k+"
       scope="Design + build"
       keyBenefits={[
         {
-          title: 'In-house crews',
-          description: 'Plumbers, electricians, and tile setters all employed by Renovision',
+          title: 'Spa-Like Finishes & Premium Fixtures',
+          description: 'Heated floors, rainfall showerheads, soaking tubs, and luxury tile selections',
         },
         {
-          title: 'AI 3D design visualization',
-          description: 'Preview your bathroom before the first tile is laid',
+          title: 'Expert Waterproofing & Moisture Control',
+          description: 'Professional waterproofing systems to prevent future water damage',
         },
         {
-          title: 'Licensed & insured',
-          description: 'BBB Accredited, serving Greater Seattle & Puget Sound',
+          title: 'Custom Tile & Fixture Design',
+          description: 'Subway tile, mosaic patterns, natural stone, and designer hardware',
         },
       ]}
-      whyChooseTitle="Why Seattle Homeowners Choose Renovision for Bathroom Remodels"
-      whyChooseIntro="A bathroom remodel is an investment in daily comfort and home value. Homeowners want a contractor who understands tile work, plumbing coordination, and moisture management—and who won't disappear mid-project. Our design-build approach ensures seamless execution and accountability."
+      whyChooseTitle="Why Homeowners Choose Renovision for Bathroom Renovations"
+      whyChooseIntro="A bathroom remodel is a personal investment in daily comfort and home value. You want a contractor who understands luxury finishes, manages moisture control, and delivers a spa-like retreat. Our design-build approach ensures every detail is perfect."
       whyChooseFeatures={[
         {
-          title: 'Moisture Management Expertise',
-          description: 'Proper waterproofing and ventilation prevent costly mold and water damage. Our crews follow industry best practices for tile installation, substrate preparation, and exhaust ventilation.',
+          title: 'Expert Waterproofing & Moisture Management',
+          description: 'Bathrooms fail when moisture control is overlooked. We use professional-grade waterproofing membranes, proper ventilation design, and drainage systems to prevent mold and water damage for years to come.',
         },
         {
-          title: 'Coordinated Trades',
-          description: 'Plumbing, electrical, and tile work must align perfectly. With one in-house team, there is no miscommunication or finger-pointing. We coordinate every trade seamlessly.',
+          title: 'Custom Tile & Fixture Selection',
+          description: 'From subway tile to natural stone, mosaic patterns to marble, we source premium materials and install them with precision. Every tile is set perfectly, every grout line is clean.',
         },
         {
-          title: 'Material Selection Support',
-          description: 'We guide you through tile, stone, fixtures, and finishes. Our in-house design team ensures your selections work together aesthetically and functionally.',
+          title: 'Spa-Like Amenities & Comfort',
+          description: 'Heated bathroom floors, rainfall showerheads, soaking tubs, heated towel racks, and steam showers. We integrate luxury features that transform your daily routine.',
         },
         {
-          title: 'Fixed-Price Transparency',
-          description: 'You know the cost upfront. No hidden charges for plumbing relocations or electrical upgrades—they are all included in the proposal.',
+          title: 'Fixed-Price Bathroom Remodeling',
+          description: 'You know the cost upfront. No hidden charges, no creeping change orders. Our proposals include all labor, materials, permits, and inspections.',
         },
       ]}
       services={[
         {
-          title: 'Master bathroom suites',
-          description: 'Dual vanities, walk-in showers, soaking tubs, heated floors.',
+          title: 'Master Bath Suite Remodels',
+          description: 'Complete redesign with dual vanities, spa shower, soaking tub, and heated floors.',
         },
         {
-          title: 'Wet rooms & curbless showers',
-          description: 'Accessible, spa-like designs with proper drainage and waterproofing.',
+          title: 'Shower & Tub Enclosure Installation',
+          description: 'Frameless glass enclosures, custom tile surrounds, rainfall showerheads, and body jets.',
         },
         {
-          title: 'Powder room refreshes',
-          description: 'Quick, high-impact updates for guest bathrooms.',
+          title: 'Custom Vanity & Cabinetry',
+          description: 'Floating vanities, custom storage, soft-close drawers, and premium hardware.',
         },
         {
-          title: 'Tile & stone work',
-          description: 'Subway, hexagon, large-format, natural stone—expertly installed.',
+          title: 'Tile Work & Waterproofing',
+          description: 'Subway tile, mosaic patterns, natural stone, and professional waterproofing membranes.',
         },
         {
-          title: 'Plumbing relocations',
-          description: 'Move sinks, add heated towel racks, install pot fillers.',
+          title: 'Luxury Fixture Installation',
+          description: 'High-end faucets, heated towel racks, ventilation fans, and lighting design.',
         },
         {
-          title: 'Lighting & exhaust',
-          description: 'Recessed lighting, vanity sconces, proper ventilation.',
+          title: 'Heated Floor Installation',
+          description: 'Radiant floor heating for comfort and luxury in bathrooms and entryways.',
         },
         {
-          title: 'Fixture upgrades',
-          description: 'Faucets, showerheads, towel bars, mirrors.',
+          title: 'Powder Room Remodels',
+          description: 'Compact, high-impact designs for guest bathrooms with premium finishes.',
         },
         {
-          title: 'Flooring options',
-          description: 'Tile, heated tile, luxury vinyl, or natural stone.',
+          title: 'Bathroom Lighting & Ventilation',
+          description: 'Proper ventilation design, LED lighting, and moisture-resistant fixtures.',
         },
       ]}
       whatIncluded={[
-        'Tile & stone installation',
-        'Plumbing fixtures & relocations',
-        'Electrical & lighting',
-        'Vanities & cabinetry',
-        'Mirrors & accessories',
-        'Exhaust ventilation',
-        'Waterproofing & substrate prep',
-        'Permits & project management',
+        'Detailed 3D bathroom design and renderings',
+        'Structural assessment and modifications (if needed)',
+        'Professional waterproofing and moisture barriers',
+        'Permits and inspections',
+        'Plumbing design and installation',
+        'Electrical design and installation',
+        'Custom tile fabrication and installation',
+        'Vanity and cabinetry installation',
+        'Fixture installation (faucets, towel racks, etc.)',
+        'Lighting and ventilation',
+        'Heated floor installation (if included)',
+        'Final walkthrough and punch list',
       ]}
       processSteps={[
         {
-          title: 'Free Design Consultation',
-          description: 'We assess your current bathroom, discuss your needs (storage, lighting, accessibility), and explore design options. We explain what is realistic at your budget.',
+          title: 'Bathroom Design & 3D Visualization',
+          description: 'We meet at your home to understand your vision—spa-like retreat or functional family bathroom. We measure the space and discuss fixture preferences. Within 2 weeks, you receive a photorealistic 3D rendering for approval.',
         },
         {
-          title: 'AI 3D Design',
-          description: 'Our design team creates photorealistic renders showing tile layouts, fixture placement, lighting, and finishes. You approve the design before any work begins.',
+          title: 'Fixture & Material Selection',
+          description: 'You select tile styles, vanity designs, faucet finishes, lighting, and luxury amenities from our curated vendors. We provide samples and design guidance.',
         },
         {
-          title: 'Proposal & Permits',
-          description: 'Clear, itemized estimate covering all materials, labor, and permits. We handle all required building permits and inspections.',
+          title: 'Waterproofing & Installation',
+          description: 'Our crews install professional waterproofing membranes, plumbing, electrical, and tile work. Proper moisture control is our priority to prevent future problems.',
         },
         {
-          title: 'Build & Walkthrough',
-          description: 'Our crew manages demolition, plumbing, electrical, tile, and finishing. Weekly updates keep you informed. Final walkthrough and warranty.',
-        },
-      ]}
-      relatedProjects={[
-        {
-          title: 'Bedroom-To-Bathroom Conversion In Loyal Heights, Seattle',
-          image: '/manus-storage/bathroom-project_aa53c9f7.webp',
-          link: '/project/loyal-heights-bedroom-to-bathroom-conversion',
+          title: 'Final Inspection & Styling',
+          description: 'After all trades complete their work, we conduct a final inspection, address any punch-list items, and ensure your new bathroom is spa-ready. You receive full documentation and warranty information.',
         },
       ]}
       faqs={[
         {
           question: 'How long does a bathroom remodel take?',
-          answer: 'Most bathroom remodels take 5–8 weeks. Larger master baths may take 8–10 weeks. We provide a detailed timeline upfront.',
+          answer: 'Most bathroom remodels take 6–10 weeks from design approval to final walkthrough. The timeline depends on the scope (powder room vs. master bath), permit processing, and material lead times.',
         },
         {
-          question: 'Can we use our bathroom during the remodel?',
-          answer: 'Typically, no. We recommend using a guest bathroom or nearby facility. We work efficiently to minimize disruption.',
+          question: 'What is the average cost of a bathroom remodel?',
+          answer: 'Bathroom remodels typically range from $25,000 to $75,000+, depending on materials, fixtures, and finishes. We provide a fixed-price proposal upfront so you know the total investment before work begins.',
         },
         {
-          question: 'What is the return on a bathroom remodel?',
-          answer: 'A bathroom remodel typically returns 50–70% of its cost at resale. More importantly, you enjoy the improved space daily.',
+          question: 'How do you prevent water damage and mold?',
+          answer: 'We use professional-grade waterproofing membranes, proper drainage systems, and ventilation design. Moisture control is built into every bathroom remodel to prevent future problems.',
         },
         {
-          question: 'How do you prevent mold and water damage?',
-          answer: 'Proper waterproofing, substrate preparation, and exhaust ventilation are critical. Our crews follow industry best practices and building codes to ensure long-term durability.',
+          question: 'Can you install heated floors?',
+          answer: 'Yes. Radiant floor heating is a popular luxury feature. We can install it under tile or stone for comfort and warmth.',
+        },
+        {
+          question: 'Do you handle permits and inspections?',
+          answer: 'Yes. All permitting, inspections, and code compliance are included in our scope. We manage the entire process so you do not have to coordinate with the city.',
+        },
+        {
+          question: 'What if I want to change the design during construction?',
+          answer: 'Design changes are addressed quickly with our integrated design-build model. We discuss the change, provide a cost adjustment if needed, and implement it without delays.',
         },
       ]}
     />
