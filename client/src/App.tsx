@@ -23,7 +23,7 @@ import ProjectGallery from "./pages/ProjectGallery";
 import PrivacyPolicy from "./pages/PrivacyPolicy";
 import TermsAndConditions from "./pages/TermsAndConditions";
 import GeneralContractorTacoma from "./pages/GeneralContractorTacoma";
-import GeneralContractorTacoma from "./pages/GeneralContractorTacoma";
+import GeneralContractorBellevue from "./pages/GeneralContractorBellevue";
 import GeneralContractorGigHarbor from "./pages/GeneralContractorGigHarbor";
 import GeneralContractorLakewood from "./pages/GeneralContractorLakewood";
 import GeneralContractorPuyallup from "./pages/GeneralContractorPuyallup";
